@@ -1615,3 +1615,17 @@
 [2023-06-22 12:21:08,319] {logging_mixin.py:115} INFO - [2023-06-22 12:21:08,319] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-06-22 12:21:08,338] {logging_mixin.py:115} INFO - [2023-06-22 12:21:08,338] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
 [2023-06-22 12:21:08,353] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.073 seconds
+[2023-06-22 12:21:38,754] {processor.py:153} INFO - Started process (PID=59936) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-06-22 12:21:38,754] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-06-22 12:21:38,755] {logging_mixin.py:115} INFO - [2023-06-22 12:21:38,755] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-06-22 12:21:38,770] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-06-22 12:21:38,785] {logging_mixin.py:115} INFO - [2023-06-22 12:21:38,785] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:21:38,801] {logging_mixin.py:115} INFO - [2023-06-22 12:21:38,801] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-06-22 12:21:38,812] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.061 seconds
+[2023-06-22 12:22:11,189] {processor.py:153} INFO - Started process (PID=60231) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-06-22 12:22:11,192] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-06-22 12:22:11,192] {logging_mixin.py:115} INFO - [2023-06-22 12:22:11,192] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-06-22 12:22:11,210] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-06-22 12:22:11,222] {logging_mixin.py:115} INFO - [2023-06-22 12:22:11,222] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:22:11,235] {logging_mixin.py:115} INFO - [2023-06-22 12:22:11,235] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-06-22 12:22:11,244] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.060 seconds

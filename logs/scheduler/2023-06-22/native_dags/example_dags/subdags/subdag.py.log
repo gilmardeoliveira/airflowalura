@@ -1108,3 +1108,13 @@
 [2023-06-22 12:21:04,312] {logging_mixin.py:115} INFO - [2023-06-22 12:21:04,312] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
 [2023-06-22 12:21:04,315] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
 [2023-06-22 12:21:04,330] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.029 seconds
+[2023-06-22 12:21:39,011] {processor.py:153} INFO - Started process (PID=59939) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-06-22 12:21:39,014] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-06-22 12:21:39,015] {logging_mixin.py:115} INFO - [2023-06-22 12:21:39,015] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-06-22 12:21:39,017] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-06-22 12:21:39,030] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.022 seconds
+[2023-06-22 12:22:13,444] {processor.py:153} INFO - Started process (PID=60245) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-06-22 12:22:13,446] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-06-22 12:22:13,446] {logging_mixin.py:115} INFO - [2023-06-22 12:22:13,446] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-06-22 12:22:13,447] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-06-22 12:22:13,456] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.015 seconds

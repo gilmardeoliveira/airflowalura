@@ -1552,3 +1552,10 @@
 [2023-06-22 12:21:09,448] {logging_mixin.py:115} INFO - [2023-06-22 12:21:09,448] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-06-22 12:21:09,462] {logging_mixin.py:115} INFO - [2023-06-22 12:21:09,461] {dag.py:2927} INFO - Setting next_dagrun for example_branch_operator to 2023-06-21T00:00:00+00:00, run_after=2023-06-22T00:00:00+00:00
 [2023-06-22 12:21:09,474] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.055 seconds
+[2023-06-22 12:21:44,115] {processor.py:153} INFO - Started process (PID=59967) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-06-22 12:21:44,116] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-06-22 12:21:44,116] {logging_mixin.py:115} INFO - [2023-06-22 12:21:44,116] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-06-22 12:21:44,125] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-06-22 12:21:44,138] {logging_mixin.py:115} INFO - [2023-06-22 12:21:44,138] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:21:44,153] {logging_mixin.py:115} INFO - [2023-06-22 12:21:44,153] {dag.py:2927} INFO - Setting next_dagrun for example_branch_operator to 2023-06-21T00:00:00+00:00, run_after=2023-06-22T00:00:00+00:00
+[2023-06-22 12:21:44,162] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.050 seconds

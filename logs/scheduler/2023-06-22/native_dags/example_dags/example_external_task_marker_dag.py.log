@@ -1702,3 +1702,11 @@
 [2023-06-22 12:21:20,766] {logging_mixin.py:115} INFO - [2023-06-22 12:21:20,766] {dag.py:2927} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
 [2023-06-22 12:21:20,766] {logging_mixin.py:115} INFO - [2023-06-22 12:21:20,766] {dag.py:2927} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
 [2023-06-22 12:21:20,775] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.049 seconds
+[2023-06-22 12:21:56,737] {processor.py:153} INFO - Started process (PID=60077) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2023-06-22 12:21:56,738] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2023-06-22 12:21:56,738] {logging_mixin.py:115} INFO - [2023-06-22 12:21:56,738] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2023-06-22 12:21:56,742] {processor.py:651} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2023-06-22 12:21:56,762] {logging_mixin.py:115} INFO - [2023-06-22 12:21:56,762] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-06-22 12:21:56,776] {logging_mixin.py:115} INFO - [2023-06-22 12:21:56,775] {dag.py:2927} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2023-06-22 12:21:56,776] {logging_mixin.py:115} INFO - [2023-06-22 12:21:56,776] {dag.py:2927} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2023-06-22 12:21:56,786] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.052 seconds
