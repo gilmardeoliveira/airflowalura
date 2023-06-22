@@ -740,3 +740,199 @@
 [2023-06-22 11:14:54,043] {logging_mixin.py:115} INFO - [2023-06-22 11:14:54,043] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-06-22 11:14:54,059] {logging_mixin.py:115} INFO - [2023-06-22 11:14:54,059] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-06-21T14:14:54.059135+00:00, run_after=2023-06-22T14:14:54.059135+00:00
 [2023-06-22 11:14:54,071] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.055 seconds
+[2023-06-22 11:15:32,662] {processor.py:153} INFO - Started process (PID=34815) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:15:32,663] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-06-22 11:15:32,664] {logging_mixin.py:115} INFO - [2023-06-22 11:15:32,664] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:15:32,670] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:15:32,685] {logging_mixin.py:115} INFO - [2023-06-22 11:15:32,685] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:15:32,704] {logging_mixin.py:115} INFO - [2023-06-22 11:15:32,703] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-06-21T14:15:32.703702+00:00, run_after=2023-06-22T14:15:32.703702+00:00
+[2023-06-22 11:15:32,717] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.059 seconds
+[2023-06-22 11:16:15,855] {processor.py:153} INFO - Started process (PID=35195) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:16:15,856] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-06-22 11:16:15,857] {logging_mixin.py:115} INFO - [2023-06-22 11:16:15,857] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:16:15,861] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:16:15,875] {logging_mixin.py:115} INFO - [2023-06-22 11:16:15,875] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:16:15,889] {logging_mixin.py:115} INFO - [2023-06-22 11:16:15,889] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-06-21T14:16:15.889305+00:00, run_after=2023-06-22T14:16:15.889305+00:00
+[2023-06-22 11:16:16,005] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.152 seconds
+[2023-06-22 11:16:57,641] {processor.py:153} INFO - Started process (PID=35449) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:16:57,642] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-06-22 11:16:57,643] {logging_mixin.py:115} INFO - [2023-06-22 11:16:57,642] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:16:57,647] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:16:57,660] {logging_mixin.py:115} INFO - [2023-06-22 11:16:57,660] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:16:57,673] {logging_mixin.py:115} INFO - [2023-06-22 11:16:57,673] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-06-21T14:16:57.673027+00:00, run_after=2023-06-22T14:16:57.673027+00:00
+[2023-06-22 11:16:57,691] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.052 seconds
+[2023-06-22 11:17:39,044] {processor.py:153} INFO - Started process (PID=35755) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:17:39,045] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-06-22 11:17:39,045] {logging_mixin.py:115} INFO - [2023-06-22 11:17:39,045] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:17:39,052] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:17:39,069] {logging_mixin.py:115} INFO - [2023-06-22 11:17:39,068] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:17:39,089] {logging_mixin.py:115} INFO - [2023-06-22 11:17:39,089] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-06-21T14:17:39.088929+00:00, run_after=2023-06-22T14:17:39.088929+00:00
+[2023-06-22 11:17:39,104] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.063 seconds
+[2023-06-22 11:18:19,286] {processor.py:153} INFO - Started process (PID=36083) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:18:19,287] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-06-22 11:18:19,288] {logging_mixin.py:115} INFO - [2023-06-22 11:18:19,288] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:18:19,295] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:18:19,311] {logging_mixin.py:115} INFO - [2023-06-22 11:18:19,311] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:18:19,327] {logging_mixin.py:115} INFO - [2023-06-22 11:18:19,327] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-06-21T14:18:19.327276+00:00, run_after=2023-06-22T14:18:19.327276+00:00
+[2023-06-22 11:18:19,337] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.057 seconds
+[2023-06-22 11:18:56,143] {processor.py:153} INFO - Started process (PID=36297) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:18:56,144] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-06-22 11:18:56,145] {logging_mixin.py:115} INFO - [2023-06-22 11:18:56,145] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:18:56,151] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:18:56,165] {logging_mixin.py:115} INFO - [2023-06-22 11:18:56,165] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:18:56,178] {logging_mixin.py:115} INFO - [2023-06-22 11:18:56,178] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-06-21T14:18:56.178401+00:00, run_after=2023-06-22T14:18:56.178401+00:00
+[2023-06-22 11:18:56,188] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.047 seconds
+[2023-06-22 11:19:31,402] {processor.py:153} INFO - Started process (PID=36508) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:19:31,403] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-06-22 11:19:31,403] {logging_mixin.py:115} INFO - [2023-06-22 11:19:31,403] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:19:31,407] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:19:31,421] {logging_mixin.py:115} INFO - [2023-06-22 11:19:31,421] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:19:31,433] {logging_mixin.py:115} INFO - [2023-06-22 11:19:31,433] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-06-21T14:19:31.433417+00:00, run_after=2023-06-22T14:19:31.433417+00:00
+[2023-06-22 11:19:31,442] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.043 seconds
+[2023-06-22 11:20:10,139] {processor.py:153} INFO - Started process (PID=36736) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:20:10,140] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-06-22 11:20:10,141] {logging_mixin.py:115} INFO - [2023-06-22 11:20:10,141] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:20:10,146] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:20:10,160] {logging_mixin.py:115} INFO - [2023-06-22 11:20:10,160] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:20:10,173] {logging_mixin.py:115} INFO - [2023-06-22 11:20:10,173] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-06-21T14:20:10.173514+00:00, run_after=2023-06-22T14:20:10.173514+00:00
+[2023-06-22 11:20:10,183] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.048 seconds
+[2023-06-22 11:20:44,792] {processor.py:153} INFO - Started process (PID=36938) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:20:44,793] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-06-22 11:20:44,794] {logging_mixin.py:115} INFO - [2023-06-22 11:20:44,794] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:20:44,801] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:20:44,817] {logging_mixin.py:115} INFO - [2023-06-22 11:20:44,817] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:20:44,830] {logging_mixin.py:115} INFO - [2023-06-22 11:20:44,830] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-06-21T14:20:44.829976+00:00, run_after=2023-06-22T14:20:44.829976+00:00
+[2023-06-22 11:20:44,838] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.053 seconds
+[2023-06-22 11:21:27,434] {processor.py:153} INFO - Started process (PID=37191) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:21:27,435] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-06-22 11:21:27,435] {logging_mixin.py:115} INFO - [2023-06-22 11:21:27,435] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:21:27,439] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:21:27,452] {logging_mixin.py:115} INFO - [2023-06-22 11:21:27,452] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:21:27,465] {logging_mixin.py:115} INFO - [2023-06-22 11:21:27,465] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-06-21T14:21:27.465370+00:00, run_after=2023-06-22T14:21:27.465370+00:00
+[2023-06-22 11:21:27,474] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.043 seconds
+[2023-06-22 11:22:01,816] {processor.py:153} INFO - Started process (PID=37395) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:22:01,817] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-06-22 11:22:01,818] {logging_mixin.py:115} INFO - [2023-06-22 11:22:01,818] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:22:01,823] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:22:01,837] {logging_mixin.py:115} INFO - [2023-06-22 11:22:01,837] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:22:01,853] {logging_mixin.py:115} INFO - [2023-06-22 11:22:01,853] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-06-21T14:22:01.853419+00:00, run_after=2023-06-22T14:22:01.853419+00:00
+[2023-06-22 11:22:01,865] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.054 seconds
+[2023-06-22 11:22:42,900] {processor.py:153} INFO - Started process (PID=37708) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:22:42,901] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-06-22 11:22:42,902] {logging_mixin.py:115} INFO - [2023-06-22 11:22:42,902] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:22:42,906] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:22:42,920] {logging_mixin.py:115} INFO - [2023-06-22 11:22:42,920] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:22:42,935] {logging_mixin.py:115} INFO - [2023-06-22 11:22:42,935] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-06-21T14:22:42.935271+00:00, run_after=2023-06-22T14:22:42.935271+00:00
+[2023-06-22 11:22:42,948] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.050 seconds
+[2023-06-22 11:23:20,002] {processor.py:153} INFO - Started process (PID=37925) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:23:20,003] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-06-22 11:23:20,004] {logging_mixin.py:115} INFO - [2023-06-22 11:23:20,004] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:23:20,009] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:23:20,027] {logging_mixin.py:115} INFO - [2023-06-22 11:23:20,026] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:23:20,040] {logging_mixin.py:115} INFO - [2023-06-22 11:23:20,040] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-06-21T14:23:20.040107+00:00, run_after=2023-06-22T14:23:20.040107+00:00
+[2023-06-22 11:23:20,052] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.052 seconds
+[2023-06-22 11:23:58,252] {processor.py:153} INFO - Started process (PID=38149) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:23:58,254] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-06-22 11:23:58,254] {logging_mixin.py:115} INFO - [2023-06-22 11:23:58,254] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:23:58,261] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:23:58,282] {logging_mixin.py:115} INFO - [2023-06-22 11:23:58,282] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:23:58,298] {logging_mixin.py:115} INFO - [2023-06-22 11:23:58,298] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-06-21T14:23:58.297995+00:00, run_after=2023-06-22T14:23:58.297995+00:00
+[2023-06-22 11:23:58,308] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.061 seconds
+[2023-06-22 11:24:34,739] {processor.py:153} INFO - Started process (PID=38369) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:24:34,739] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-06-22 11:24:34,740] {logging_mixin.py:115} INFO - [2023-06-22 11:24:34,740] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:24:34,745] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:24:34,760] {logging_mixin.py:115} INFO - [2023-06-22 11:24:34,760] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:24:34,773] {logging_mixin.py:115} INFO - [2023-06-22 11:24:34,773] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-06-21T14:24:34.773539+00:00, run_after=2023-06-22T14:24:34.773539+00:00
+[2023-06-22 11:24:34,786] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.050 seconds
+[2023-06-22 11:25:12,838] {processor.py:153} INFO - Started process (PID=38588) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:25:12,840] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-06-22 11:25:12,840] {logging_mixin.py:115} INFO - [2023-06-22 11:25:12,840] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:25:12,847] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:25:12,863] {logging_mixin.py:115} INFO - [2023-06-22 11:25:12,863] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:25:12,878] {logging_mixin.py:115} INFO - [2023-06-22 11:25:12,878] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-06-21T14:25:12.877862+00:00, run_after=2023-06-22T14:25:12.877862+00:00
+[2023-06-22 11:25:12,889] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.056 seconds
+[2023-06-22 11:25:49,037] {processor.py:153} INFO - Started process (PID=38802) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:25:49,038] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-06-22 11:25:49,039] {logging_mixin.py:115} INFO - [2023-06-22 11:25:49,039] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:25:49,045] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:25:49,062] {logging_mixin.py:115} INFO - [2023-06-22 11:25:49,061] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:25:49,075] {logging_mixin.py:115} INFO - [2023-06-22 11:25:49,075] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-06-21T14:25:49.075547+00:00, run_after=2023-06-22T14:25:49.075547+00:00
+[2023-06-22 11:25:49,086] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.054 seconds
+[2023-06-22 11:26:29,231] {processor.py:153} INFO - Started process (PID=39035) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:26:29,231] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-06-22 11:26:29,232] {logging_mixin.py:115} INFO - [2023-06-22 11:26:29,232] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:26:29,237] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:26:29,253] {logging_mixin.py:115} INFO - [2023-06-22 11:26:29,253] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:26:29,267] {logging_mixin.py:115} INFO - [2023-06-22 11:26:29,267] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-06-21T14:26:29.266781+00:00, run_after=2023-06-22T14:26:29.266781+00:00
+[2023-06-22 11:26:29,277] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.050 seconds
+[2023-06-22 11:27:08,543] {processor.py:153} INFO - Started process (PID=39259) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:27:08,544] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-06-22 11:27:08,544] {logging_mixin.py:115} INFO - [2023-06-22 11:27:08,544] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:27:08,549] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:27:08,564] {logging_mixin.py:115} INFO - [2023-06-22 11:27:08,564] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:27:08,578] {logging_mixin.py:115} INFO - [2023-06-22 11:27:08,578] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-06-21T14:27:08.578517+00:00, run_after=2023-06-22T14:27:08.578517+00:00
+[2023-06-22 11:27:08,589] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.048 seconds
+[2023-06-22 11:27:50,280] {processor.py:153} INFO - Started process (PID=39508) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:27:50,281] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-06-22 11:27:50,281] {logging_mixin.py:115} INFO - [2023-06-22 11:27:50,281] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:27:50,285] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:27:50,300] {logging_mixin.py:115} INFO - [2023-06-22 11:27:50,300] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:27:50,314] {logging_mixin.py:115} INFO - [2023-06-22 11:27:50,314] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-06-21T14:27:50.313895+00:00, run_after=2023-06-22T14:27:50.313895+00:00
+[2023-06-22 11:27:50,324] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.046 seconds
+[2023-06-22 11:28:26,171] {processor.py:153} INFO - Started process (PID=39817) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:28:26,172] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-06-22 11:28:26,173] {logging_mixin.py:115} INFO - [2023-06-22 11:28:26,173] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:28:26,177] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:28:26,195] {logging_mixin.py:115} INFO - [2023-06-22 11:28:26,195] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:28:26,209] {logging_mixin.py:115} INFO - [2023-06-22 11:28:26,209] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-06-21T14:28:26.209607+00:00, run_after=2023-06-22T14:28:26.209607+00:00
+[2023-06-22 11:28:26,229] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.061 seconds
+[2023-06-22 11:29:01,440] {processor.py:153} INFO - Started process (PID=40114) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:29:01,441] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-06-22 11:29:01,442] {logging_mixin.py:115} INFO - [2023-06-22 11:29:01,442] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:29:01,446] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:29:01,460] {logging_mixin.py:115} INFO - [2023-06-22 11:29:01,460] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:29:01,474] {logging_mixin.py:115} INFO - [2023-06-22 11:29:01,474] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-06-21T14:29:01.474682+00:00, run_after=2023-06-22T14:29:01.474682+00:00
+[2023-06-22 11:29:01,485] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.047 seconds
+[2023-06-22 11:29:40,362] {processor.py:153} INFO - Started process (PID=40346) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:29:40,363] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-06-22 11:29:40,363] {logging_mixin.py:115} INFO - [2023-06-22 11:29:40,363] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:29:40,368] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:29:40,385] {logging_mixin.py:115} INFO - [2023-06-22 11:29:40,384] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:29:40,398] {logging_mixin.py:115} INFO - [2023-06-22 11:29:40,398] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-06-21T14:29:40.397949+00:00, run_after=2023-06-22T14:29:40.397949+00:00
+[2023-06-22 11:29:40,412] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.053 seconds
+[2023-06-22 11:30:18,504] {processor.py:153} INFO - Started process (PID=40606) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:30:18,507] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-06-22 11:30:18,508] {logging_mixin.py:115} INFO - [2023-06-22 11:30:18,507] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:30:18,512] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:30:18,529] {logging_mixin.py:115} INFO - [2023-06-22 11:30:18,529] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:30:18,548] {logging_mixin.py:115} INFO - [2023-06-22 11:30:18,548] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-06-21T14:30:18.548284+00:00, run_after=2023-06-22T14:30:18.548284+00:00
+[2023-06-22 11:30:18,562] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.061 seconds
+[2023-06-22 11:30:57,077] {processor.py:153} INFO - Started process (PID=40850) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:30:57,078] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-06-22 11:30:57,079] {logging_mixin.py:115} INFO - [2023-06-22 11:30:57,079] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:30:57,084] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:30:57,100] {logging_mixin.py:115} INFO - [2023-06-22 11:30:57,100] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:30:57,115] {logging_mixin.py:115} INFO - [2023-06-22 11:30:57,114] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-06-21T14:30:57.114790+00:00, run_after=2023-06-22T14:30:57.114790+00:00
+[2023-06-22 11:30:57,125] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.051 seconds
+[2023-06-22 11:31:36,501] {processor.py:153} INFO - Started process (PID=41301) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:31:36,502] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-06-22 11:31:36,503] {logging_mixin.py:115} INFO - [2023-06-22 11:31:36,503] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:31:36,509] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:31:36,527] {logging_mixin.py:115} INFO - [2023-06-22 11:31:36,527] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:31:36,545] {logging_mixin.py:115} INFO - [2023-06-22 11:31:36,545] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-06-21T14:31:36.544977+00:00, run_after=2023-06-22T14:31:36.544977+00:00
+[2023-06-22 11:31:36,557] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.059 seconds
+[2023-06-22 11:32:10,700] {processor.py:153} INFO - Started process (PID=41662) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:32:10,701] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-06-22 11:32:10,702] {logging_mixin.py:115} INFO - [2023-06-22 11:32:10,702] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:32:10,706] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:32:10,719] {logging_mixin.py:115} INFO - [2023-06-22 11:32:10,719] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:32:10,733] {logging_mixin.py:115} INFO - [2023-06-22 11:32:10,732] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-06-21T14:32:10.732595+00:00, run_after=2023-06-22T14:32:10.732595+00:00
+[2023-06-22 11:32:10,746] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.048 seconds
+[2023-06-22 11:32:48,701] {processor.py:153} INFO - Started process (PID=42048) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:32:48,702] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-06-22 11:32:48,703] {logging_mixin.py:115} INFO - [2023-06-22 11:32:48,703] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:32:48,708] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-06-22 11:32:48,723] {logging_mixin.py:115} INFO - [2023-06-22 11:32:48,723] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:32:48,738] {logging_mixin.py:115} INFO - [2023-06-22 11:32:48,738] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-06-21T14:32:48.737872+00:00, run_after=2023-06-22T14:32:48.737872+00:00
+[2023-06-22 11:32:48,749] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.052 seconds

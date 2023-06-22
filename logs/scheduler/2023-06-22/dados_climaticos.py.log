@@ -881,3 +881,227 @@
 [2023-06-22 11:15:21,147] {logging_mixin.py:115} INFO - [2023-06-22 11:15:21,147] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-06-22 11:15:21,160] {logging_mixin.py:115} INFO - [2023-06-22 11:15:21,160] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2023-06-19T00:00:00+00:00, run_after=2023-06-26T00:00:00+00:00
 [2023-06-22 11:15:21,168] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py took 0.284 seconds
+[2023-06-22 11:15:53,434] {processor.py:153} INFO - Started process (PID=34995) to work on /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:15:53,438] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2023-06-22 11:15:53,441] {logging_mixin.py:115} INFO - [2023-06-22 11:15:53,441] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:15:54,467] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:15:54,509] {logging_mixin.py:115} INFO - [2023-06-22 11:15:54,509] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:15:54,547] {logging_mixin.py:115} INFO - [2023-06-22 11:15:54,547] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2023-06-19T00:00:00+00:00, run_after=2023-06-26T00:00:00+00:00
+[2023-06-22 11:15:54,569] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py took 1.164 seconds
+[2023-06-22 11:16:28,013] {processor.py:153} INFO - Started process (PID=35269) to work on /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:16:28,014] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2023-06-22 11:16:28,015] {logging_mixin.py:115} INFO - [2023-06-22 11:16:28,015] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:16:28,232] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:16:28,239] {logging_mixin.py:115} INFO - [2023-06-22 11:16:28,239] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:16:28,251] {logging_mixin.py:115} INFO - [2023-06-22 11:16:28,250] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2023-06-19T00:00:00+00:00, run_after=2023-06-26T00:00:00+00:00
+[2023-06-22 11:16:28,258] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py took 0.247 seconds
+[2023-06-22 11:16:59,908] {processor.py:153} INFO - Started process (PID=35460) to work on /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:16:59,908] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2023-06-22 11:16:59,909] {logging_mixin.py:115} INFO - [2023-06-22 11:16:59,909] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:17:00,140] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:17:00,147] {logging_mixin.py:115} INFO - [2023-06-22 11:17:00,147] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:17:00,163] {logging_mixin.py:115} INFO - [2023-06-22 11:17:00,163] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2023-06-19T00:00:00+00:00, run_after=2023-06-26T00:00:00+00:00
+[2023-06-22 11:17:00,171] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py took 0.266 seconds
+[2023-06-22 11:17:33,013] {processor.py:153} INFO - Started process (PID=35657) to work on /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:17:33,015] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2023-06-22 11:17:33,016] {logging_mixin.py:115} INFO - [2023-06-22 11:17:33,016] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:17:33,245] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:17:33,253] {logging_mixin.py:115} INFO - [2023-06-22 11:17:33,253] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:17:33,265] {logging_mixin.py:115} INFO - [2023-06-22 11:17:33,265] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2023-06-19T00:00:00+00:00, run_after=2023-06-26T00:00:00+00:00
+[2023-06-22 11:17:33,273] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py took 0.266 seconds
+[2023-06-22 11:18:06,876] {processor.py:153} INFO - Started process (PID=36012) to work on /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:18:06,876] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2023-06-22 11:18:06,877] {logging_mixin.py:115} INFO - [2023-06-22 11:18:06,877] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:18:07,138] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:18:07,146] {logging_mixin.py:115} INFO - [2023-06-22 11:18:07,146] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:18:07,159] {logging_mixin.py:115} INFO - [2023-06-22 11:18:07,159] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2023-06-19T00:00:00+00:00, run_after=2023-06-26T00:00:00+00:00
+[2023-06-22 11:18:07,168] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py took 0.296 seconds
+[2023-06-22 11:18:44,394] {processor.py:153} INFO - Started process (PID=36229) to work on /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:18:44,395] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2023-06-22 11:18:44,395] {logging_mixin.py:115} INFO - [2023-06-22 11:18:44,395] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:18:44,619] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:18:44,626] {logging_mixin.py:115} INFO - [2023-06-22 11:18:44,626] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:18:44,638] {logging_mixin.py:115} INFO - [2023-06-22 11:18:44,637] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2023-06-19T00:00:00+00:00, run_after=2023-06-26T00:00:00+00:00
+[2023-06-22 11:18:44,646] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py took 0.254 seconds
+[2023-06-22 11:19:16,545] {processor.py:153} INFO - Started process (PID=36420) to work on /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:19:16,546] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2023-06-22 11:19:16,547] {logging_mixin.py:115} INFO - [2023-06-22 11:19:16,547] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:19:16,795] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:19:16,803] {logging_mixin.py:115} INFO - [2023-06-22 11:19:16,803] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:19:16,818] {logging_mixin.py:115} INFO - [2023-06-22 11:19:16,818] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2023-06-19T00:00:00+00:00, run_after=2023-06-26T00:00:00+00:00
+[2023-06-22 11:19:16,827] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py took 0.286 seconds
+[2023-06-22 11:19:47,119] {processor.py:153} INFO - Started process (PID=36601) to work on /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:19:47,120] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2023-06-22 11:19:47,120] {logging_mixin.py:115} INFO - [2023-06-22 11:19:47,120] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:19:47,341] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:19:47,348] {logging_mixin.py:115} INFO - [2023-06-22 11:19:47,348] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:19:47,360] {logging_mixin.py:115} INFO - [2023-06-22 11:19:47,360] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2023-06-19T00:00:00+00:00, run_after=2023-06-26T00:00:00+00:00
+[2023-06-22 11:19:47,369] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py took 0.252 seconds
+[2023-06-22 11:20:17,710] {processor.py:153} INFO - Started process (PID=36782) to work on /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:20:17,711] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2023-06-22 11:20:17,712] {logging_mixin.py:115} INFO - [2023-06-22 11:20:17,712] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:20:17,946] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:20:17,953] {logging_mixin.py:115} INFO - [2023-06-22 11:20:17,953] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:20:17,966] {logging_mixin.py:115} INFO - [2023-06-22 11:20:17,966] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2023-06-19T00:00:00+00:00, run_after=2023-06-26T00:00:00+00:00
+[2023-06-22 11:20:17,975] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py took 0.267 seconds
+[2023-06-22 11:20:51,034] {processor.py:153} INFO - Started process (PID=36977) to work on /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:20:51,035] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2023-06-22 11:20:51,036] {logging_mixin.py:115} INFO - [2023-06-22 11:20:51,036] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:20:51,308] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:20:51,317] {logging_mixin.py:115} INFO - [2023-06-22 11:20:51,317] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:20:51,330] {logging_mixin.py:115} INFO - [2023-06-22 11:20:51,329] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2023-06-19T00:00:00+00:00, run_after=2023-06-26T00:00:00+00:00
+[2023-06-22 11:20:51,337] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py took 0.306 seconds
+[2023-06-22 11:21:21,885] {processor.py:153} INFO - Started process (PID=37157) to work on /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:21:21,887] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2023-06-22 11:21:21,887] {logging_mixin.py:115} INFO - [2023-06-22 11:21:21,887] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:21:22,123] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:21:22,130] {logging_mixin.py:115} INFO - [2023-06-22 11:21:22,130] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:21:22,141] {logging_mixin.py:115} INFO - [2023-06-22 11:21:22,141] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2023-06-19T00:00:00+00:00, run_after=2023-06-26T00:00:00+00:00
+[2023-06-22 11:21:22,149] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py took 0.273 seconds
+[2023-06-22 11:21:53,789] {processor.py:153} INFO - Started process (PID=37347) to work on /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:21:53,790] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2023-06-22 11:21:53,791] {logging_mixin.py:115} INFO - [2023-06-22 11:21:53,791] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:21:54,012] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:21:54,020] {logging_mixin.py:115} INFO - [2023-06-22 11:21:54,020] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:21:54,031] {logging_mixin.py:115} INFO - [2023-06-22 11:21:54,031] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2023-06-19T00:00:00+00:00, run_after=2023-06-26T00:00:00+00:00
+[2023-06-22 11:21:54,040] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py took 0.253 seconds
+[2023-06-22 11:22:27,959] {processor.py:153} INFO - Started process (PID=37619) to work on /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:22:27,960] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2023-06-22 11:22:27,960] {logging_mixin.py:115} INFO - [2023-06-22 11:22:27,960] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:22:28,207] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:22:28,216] {logging_mixin.py:115} INFO - [2023-06-22 11:22:28,216] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:22:28,228] {logging_mixin.py:115} INFO - [2023-06-22 11:22:28,228] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2023-06-19T00:00:00+00:00, run_after=2023-06-26T00:00:00+00:00
+[2023-06-22 11:22:28,236] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py took 0.280 seconds
+[2023-06-22 11:22:59,628] {processor.py:153} INFO - Started process (PID=37807) to work on /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:22:59,629] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2023-06-22 11:22:59,630] {logging_mixin.py:115} INFO - [2023-06-22 11:22:59,630] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:22:59,894] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:22:59,901] {logging_mixin.py:115} INFO - [2023-06-22 11:22:59,901] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:22:59,915] {logging_mixin.py:115} INFO - [2023-06-22 11:22:59,915] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2023-06-19T00:00:00+00:00, run_after=2023-06-26T00:00:00+00:00
+[2023-06-22 11:22:59,924] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py took 0.298 seconds
+[2023-06-22 11:23:34,291] {processor.py:153} INFO - Started process (PID=38010) to work on /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:23:34,292] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2023-06-22 11:23:34,293] {logging_mixin.py:115} INFO - [2023-06-22 11:23:34,293] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:23:34,572] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:23:34,581] {logging_mixin.py:115} INFO - [2023-06-22 11:23:34,581] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:23:34,596] {logging_mixin.py:115} INFO - [2023-06-22 11:23:34,596] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2023-06-19T00:00:00+00:00, run_after=2023-06-26T00:00:00+00:00
+[2023-06-22 11:23:34,606] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py took 0.319 seconds
+[2023-06-22 11:24:07,305] {processor.py:153} INFO - Started process (PID=38205) to work on /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:24:07,306] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2023-06-22 11:24:07,306] {logging_mixin.py:115} INFO - [2023-06-22 11:24:07,306] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:24:07,561] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:24:07,569] {logging_mixin.py:115} INFO - [2023-06-22 11:24:07,569] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:24:07,581] {logging_mixin.py:115} INFO - [2023-06-22 11:24:07,581] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2023-06-19T00:00:00+00:00, run_after=2023-06-26T00:00:00+00:00
+[2023-06-22 11:24:07,589] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py took 0.287 seconds
+[2023-06-22 11:24:41,016] {processor.py:153} INFO - Started process (PID=38404) to work on /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:24:41,017] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2023-06-22 11:24:41,018] {logging_mixin.py:115} INFO - [2023-06-22 11:24:41,018] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:24:41,287] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:24:41,298] {logging_mixin.py:115} INFO - [2023-06-22 11:24:41,298] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:24:41,318] {logging_mixin.py:115} INFO - [2023-06-22 11:24:41,317] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2023-06-19T00:00:00+00:00, run_after=2023-06-26T00:00:00+00:00
+[2023-06-22 11:24:41,328] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py took 0.316 seconds
+[2023-06-22 11:25:15,649] {processor.py:153} INFO - Started process (PID=38604) to work on /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:25:15,651] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2023-06-22 11:25:15,652] {logging_mixin.py:115} INFO - [2023-06-22 11:25:15,651] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:25:15,941] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:25:15,951] {logging_mixin.py:115} INFO - [2023-06-22 11:25:15,950] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:25:15,964] {logging_mixin.py:115} INFO - [2023-06-22 11:25:15,964] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2023-06-19T00:00:00+00:00, run_after=2023-06-26T00:00:00+00:00
+[2023-06-22 11:25:15,973] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py took 0.329 seconds
+[2023-06-22 11:25:51,900] {processor.py:153} INFO - Started process (PID=38820) to work on /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:25:51,901] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2023-06-22 11:25:51,902] {logging_mixin.py:115} INFO - [2023-06-22 11:25:51,902] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:25:52,162] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:25:52,172] {logging_mixin.py:115} INFO - [2023-06-22 11:25:52,172] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:25:52,184] {logging_mixin.py:115} INFO - [2023-06-22 11:25:52,184] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2023-06-19T00:00:00+00:00, run_after=2023-06-26T00:00:00+00:00
+[2023-06-22 11:25:52,194] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py took 0.297 seconds
+[2023-06-22 11:26:25,221] {processor.py:153} INFO - Started process (PID=39012) to work on /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:26:25,222] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2023-06-22 11:26:25,223] {logging_mixin.py:115} INFO - [2023-06-22 11:26:25,222] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:26:25,460] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:26:25,470] {logging_mixin.py:115} INFO - [2023-06-22 11:26:25,470] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:26:25,482] {logging_mixin.py:115} INFO - [2023-06-22 11:26:25,482] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2023-06-19T00:00:00+00:00, run_after=2023-06-26T00:00:00+00:00
+[2023-06-22 11:26:25,490] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py took 0.273 seconds
+[2023-06-22 11:26:57,142] {processor.py:153} INFO - Started process (PID=39196) to work on /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:26:57,143] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2023-06-22 11:26:57,143] {logging_mixin.py:115} INFO - [2023-06-22 11:26:57,143] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:26:57,374] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:26:57,382] {logging_mixin.py:115} INFO - [2023-06-22 11:26:57,382] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:26:57,394] {logging_mixin.py:115} INFO - [2023-06-22 11:26:57,394] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2023-06-19T00:00:00+00:00, run_after=2023-06-26T00:00:00+00:00
+[2023-06-22 11:26:57,404] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py took 0.264 seconds
+[2023-06-22 11:27:30,572] {processor.py:153} INFO - Started process (PID=39391) to work on /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:27:30,573] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2023-06-22 11:27:30,573] {logging_mixin.py:115} INFO - [2023-06-22 11:27:30,573] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:27:30,830] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:27:30,839] {logging_mixin.py:115} INFO - [2023-06-22 11:27:30,839] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:27:30,851] {logging_mixin.py:115} INFO - [2023-06-22 11:27:30,851] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2023-06-19T00:00:00+00:00, run_after=2023-06-26T00:00:00+00:00
+[2023-06-22 11:27:30,860] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py took 0.290 seconds
+[2023-06-22 11:28:01,036] {processor.py:153} INFO - Started process (PID=39610) to work on /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:28:01,037] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2023-06-22 11:28:01,038] {logging_mixin.py:115} INFO - [2023-06-22 11:28:01,038] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:28:01,255] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:28:01,263] {logging_mixin.py:115} INFO - [2023-06-22 11:28:01,263] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:28:01,274] {logging_mixin.py:115} INFO - [2023-06-22 11:28:01,274] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2023-06-19T00:00:00+00:00, run_after=2023-06-26T00:00:00+00:00
+[2023-06-22 11:28:01,289] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py took 0.255 seconds
+[2023-06-22 11:28:33,754] {processor.py:153} INFO - Started process (PID=39888) to work on /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:28:33,755] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2023-06-22 11:28:33,755] {logging_mixin.py:115} INFO - [2023-06-22 11:28:33,755] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:28:33,972] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:28:33,981] {logging_mixin.py:115} INFO - [2023-06-22 11:28:33,981] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:28:33,993] {logging_mixin.py:115} INFO - [2023-06-22 11:28:33,993] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2023-06-19T00:00:00+00:00, run_after=2023-06-26T00:00:00+00:00
+[2023-06-22 11:28:34,003] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py took 0.252 seconds
+[2023-06-22 11:29:07,184] {processor.py:153} INFO - Started process (PID=40152) to work on /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:29:07,185] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2023-06-22 11:29:07,186] {logging_mixin.py:115} INFO - [2023-06-22 11:29:07,186] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:29:07,424] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:29:07,432] {logging_mixin.py:115} INFO - [2023-06-22 11:29:07,431] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:29:07,444] {logging_mixin.py:115} INFO - [2023-06-22 11:29:07,444] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2023-06-19T00:00:00+00:00, run_after=2023-06-26T00:00:00+00:00
+[2023-06-22 11:29:07,452] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py took 0.272 seconds
+[2023-06-22 11:29:41,502] {processor.py:153} INFO - Started process (PID=40352) to work on /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:29:41,503] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2023-06-22 11:29:41,503] {logging_mixin.py:115} INFO - [2023-06-22 11:29:41,503] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:29:41,754] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:29:41,764] {logging_mixin.py:115} INFO - [2023-06-22 11:29:41,763] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:29:41,776] {logging_mixin.py:115} INFO - [2023-06-22 11:29:41,776] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2023-06-19T00:00:00+00:00, run_after=2023-06-26T00:00:00+00:00
+[2023-06-22 11:29:41,786] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py took 0.289 seconds
+[2023-06-22 11:30:14,078] {processor.py:153} INFO - Started process (PID=40582) to work on /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:30:14,080] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2023-06-22 11:30:14,080] {logging_mixin.py:115} INFO - [2023-06-22 11:30:14,080] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:30:14,371] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:30:14,380] {logging_mixin.py:115} INFO - [2023-06-22 11:30:14,380] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:30:14,393] {logging_mixin.py:115} INFO - [2023-06-22 11:30:14,393] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2023-06-19T00:00:00+00:00, run_after=2023-06-26T00:00:00+00:00
+[2023-06-22 11:30:14,405] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py took 0.349 seconds
+[2023-06-22 11:30:45,615] {processor.py:153} INFO - Started process (PID=40784) to work on /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:30:45,616] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2023-06-22 11:30:45,618] {logging_mixin.py:115} INFO - [2023-06-22 11:30:45,617] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:30:45,869] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:30:45,877] {logging_mixin.py:115} INFO - [2023-06-22 11:30:45,877] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:30:45,890] {logging_mixin.py:115} INFO - [2023-06-22 11:30:45,890] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2023-06-19T00:00:00+00:00, run_after=2023-06-26T00:00:00+00:00
+[2023-06-22 11:30:45,900] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py took 0.288 seconds
+[2023-06-22 11:31:17,217] {processor.py:153} INFO - Started process (PID=41099) to work on /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:31:17,218] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2023-06-22 11:31:17,219] {logging_mixin.py:115} INFO - [2023-06-22 11:31:17,219] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:31:17,440] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:31:17,447] {logging_mixin.py:115} INFO - [2023-06-22 11:31:17,447] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:31:17,458] {logging_mixin.py:115} INFO - [2023-06-22 11:31:17,458] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2023-06-19T00:00:00+00:00, run_after=2023-06-26T00:00:00+00:00
+[2023-06-22 11:31:17,466] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py took 0.251 seconds
+[2023-06-22 11:31:50,443] {processor.py:153} INFO - Started process (PID=41451) to work on /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:31:50,444] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2023-06-22 11:31:50,445] {logging_mixin.py:115} INFO - [2023-06-22 11:31:50,445] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:31:50,692] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:31:50,701] {logging_mixin.py:115} INFO - [2023-06-22 11:31:50,701] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:31:50,715] {logging_mixin.py:115} INFO - [2023-06-22 11:31:50,714] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2023-06-19T00:00:00+00:00, run_after=2023-06-26T00:00:00+00:00
+[2023-06-22 11:31:50,726] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py took 0.287 seconds
+[2023-06-22 11:32:22,730] {processor.py:153} INFO - Started process (PID=41777) to work on /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:32:22,731] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2023-06-22 11:32:22,731] {logging_mixin.py:115} INFO - [2023-06-22 11:32:22,731] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:32:22,948] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:32:22,956] {logging_mixin.py:115} INFO - [2023-06-22 11:32:22,956] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:32:22,968] {logging_mixin.py:115} INFO - [2023-06-22 11:32:22,968] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2023-06-19T00:00:00+00:00, run_after=2023-06-26T00:00:00+00:00
+[2023-06-22 11:32:22,980] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py took 0.253 seconds
+[2023-06-22 11:32:57,455] {processor.py:153} INFO - Started process (PID=42142) to work on /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:32:57,455] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2023-06-22 11:32:57,456] {logging_mixin.py:115} INFO - [2023-06-22 11:32:57,456] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:32:57,682] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py
+[2023-06-22 11:32:57,690] {logging_mixin.py:115} INFO - [2023-06-22 11:32:57,690] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:32:57,701] {logging_mixin.py:115} INFO - [2023-06-22 11:32:57,701] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2023-06-19T00:00:00+00:00, run_after=2023-06-26T00:00:00+00:00
+[2023-06-22 11:32:57,710] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py took 0.258 seconds

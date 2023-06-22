@@ -1230,3 +1230,322 @@ ModuleNotFoundError: No module named 'kubernetes'
 [2023-06-22 11:15:23,982] {logging_mixin.py:115} INFO - [2023-06-22 11:15:23,982] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
 [2023-06-22 11:15:23,982] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
 [2023-06-22 11:15:23,990] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.023 seconds
+[2023-06-22 11:16:10,876] {processor.py:153} INFO - Started process (PID=35163) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:16:10,877] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-06-22 11:16:10,878] {logging_mixin.py:115} INFO - [2023-06-22 11:16:10,878] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:16:10,889] {logging_mixin.py:115} INFO - [2023-06-22 11:16:10,888] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-06-22 11:16:10,889] {logging_mixin.py:115} INFO - [2023-06-22 11:16:10,889] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-06-22 11:16:10,889] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:16:10,897] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.023 seconds
+[2023-06-22 11:16:48,511] {processor.py:153} INFO - Started process (PID=35392) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:16:48,512] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-06-22 11:16:48,513] {logging_mixin.py:115} INFO - [2023-06-22 11:16:48,513] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:16:48,525] {logging_mixin.py:115} INFO - [2023-06-22 11:16:48,525] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-06-22 11:16:48,526] {logging_mixin.py:115} INFO - [2023-06-22 11:16:48,526] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-06-22 11:16:48,526] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:16:48,535] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.028 seconds
+[2023-06-22 11:17:23,322] {processor.py:153} INFO - Started process (PID=35600) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:17:23,323] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-06-22 11:17:23,323] {logging_mixin.py:115} INFO - [2023-06-22 11:17:23,323] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:17:23,334] {logging_mixin.py:115} INFO - [2023-06-22 11:17:23,334] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-06-22 11:17:23,335] {logging_mixin.py:115} INFO - [2023-06-22 11:17:23,334] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-06-22 11:17:23,335] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:17:23,343] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.023 seconds
+[2023-06-22 11:17:59,023] {processor.py:153} INFO - Started process (PID=35964) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:17:59,024] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-06-22 11:17:59,025] {logging_mixin.py:115} INFO - [2023-06-22 11:17:59,025] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:17:59,038] {logging_mixin.py:115} INFO - [2023-06-22 11:17:59,038] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-06-22 11:17:59,039] {logging_mixin.py:115} INFO - [2023-06-22 11:17:59,039] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-06-22 11:17:59,039] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:17:59,050] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.030 seconds
+[2023-06-22 11:18:33,796] {processor.py:153} INFO - Started process (PID=36170) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:18:33,797] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-06-22 11:18:33,797] {logging_mixin.py:115} INFO - [2023-06-22 11:18:33,797] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:18:33,809] {logging_mixin.py:115} INFO - [2023-06-22 11:18:33,808] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-06-22 11:18:33,809] {logging_mixin.py:115} INFO - [2023-06-22 11:18:33,809] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-06-22 11:18:33,809] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:18:33,817] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.024 seconds
+[2023-06-22 11:19:08,673] {processor.py:153} INFO - Started process (PID=36373) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:19:08,674] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-06-22 11:19:08,675] {logging_mixin.py:115} INFO - [2023-06-22 11:19:08,675] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:19:08,688] {logging_mixin.py:115} INFO - [2023-06-22 11:19:08,687] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-06-22 11:19:08,688] {logging_mixin.py:115} INFO - [2023-06-22 11:19:08,688] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-06-22 11:19:08,688] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:19:08,696] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.026 seconds
+[2023-06-22 11:19:43,265] {processor.py:153} INFO - Started process (PID=36577) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:19:43,266] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-06-22 11:19:43,267] {logging_mixin.py:115} INFO - [2023-06-22 11:19:43,267] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:19:43,278] {logging_mixin.py:115} INFO - [2023-06-22 11:19:43,278] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-06-22 11:19:43,278] {logging_mixin.py:115} INFO - [2023-06-22 11:19:43,278] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-06-22 11:19:43,279] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:19:43,287] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.024 seconds
+[2023-06-22 11:20:20,184] {processor.py:153} INFO - Started process (PID=36793) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:20:20,184] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-06-22 11:20:20,185] {logging_mixin.py:115} INFO - [2023-06-22 11:20:20,185] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:20:20,196] {logging_mixin.py:115} INFO - [2023-06-22 11:20:20,196] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-06-22 11:20:20,197] {logging_mixin.py:115} INFO - [2023-06-22 11:20:20,197] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-06-22 11:20:20,197] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:20:20,205] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.024 seconds
+[2023-06-22 11:20:53,613] {processor.py:153} INFO - Started process (PID=36991) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:20:53,615] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-06-22 11:20:53,616] {logging_mixin.py:115} INFO - [2023-06-22 11:20:53,616] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:20:53,632] {logging_mixin.py:115} INFO - [2023-06-22 11:20:53,632] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-06-22 11:20:53,633] {logging_mixin.py:115} INFO - [2023-06-22 11:20:53,633] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-06-22 11:20:53,633] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:20:53,642] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.035 seconds
+[2023-06-22 11:21:32,132] {processor.py:153} INFO - Started process (PID=37217) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:21:32,133] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-06-22 11:21:32,133] {logging_mixin.py:115} INFO - [2023-06-22 11:21:32,133] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:21:32,145] {logging_mixin.py:115} INFO - [2023-06-22 11:21:32,144] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-06-22 11:21:32,145] {logging_mixin.py:115} INFO - [2023-06-22 11:21:32,145] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-06-22 11:21:32,145] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:21:32,153] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.024 seconds
+[2023-06-22 11:22:05,813] {processor.py:153} INFO - Started process (PID=37422) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:22:05,815] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-06-22 11:22:05,815] {logging_mixin.py:115} INFO - [2023-06-22 11:22:05,815] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:22:05,827] {logging_mixin.py:115} INFO - [2023-06-22 11:22:05,827] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-06-22 11:22:05,827] {logging_mixin.py:115} INFO - [2023-06-22 11:22:05,827] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-06-22 11:22:05,827] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:22:05,836] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.026 seconds
+[2023-06-22 11:22:41,629] {processor.py:153} INFO - Started process (PID=37698) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:22:41,630] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-06-22 11:22:41,630] {logging_mixin.py:115} INFO - [2023-06-22 11:22:41,630] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:22:41,642] {logging_mixin.py:115} INFO - [2023-06-22 11:22:41,642] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-06-22 11:22:41,643] {logging_mixin.py:115} INFO - [2023-06-22 11:22:41,643] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-06-22 11:22:41,643] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:22:41,652] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.026 seconds
+[2023-06-22 11:23:14,583] {processor.py:153} INFO - Started process (PID=37896) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:23:14,584] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-06-22 11:23:14,584] {logging_mixin.py:115} INFO - [2023-06-22 11:23:14,584] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:23:14,597] {logging_mixin.py:115} INFO - [2023-06-22 11:23:14,597] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-06-22 11:23:14,598] {logging_mixin.py:115} INFO - [2023-06-22 11:23:14,598] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-06-22 11:23:14,598] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:23:14,608] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.028 seconds
+[2023-06-22 11:23:50,396] {processor.py:153} INFO - Started process (PID=38106) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:23:50,397] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-06-22 11:23:50,398] {logging_mixin.py:115} INFO - [2023-06-22 11:23:50,398] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:23:50,409] {logging_mixin.py:115} INFO - [2023-06-22 11:23:50,409] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-06-22 11:23:50,409] {logging_mixin.py:115} INFO - [2023-06-22 11:23:50,409] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-06-22 11:23:50,410] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:23:50,418] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.025 seconds
+[2023-06-22 11:24:24,452] {processor.py:153} INFO - Started process (PID=38306) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:24:24,453] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-06-22 11:24:24,453] {logging_mixin.py:115} INFO - [2023-06-22 11:24:24,453] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:24:24,468] {logging_mixin.py:115} INFO - [2023-06-22 11:24:24,467] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-06-22 11:24:24,468] {logging_mixin.py:115} INFO - [2023-06-22 11:24:24,468] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-06-22 11:24:24,469] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:24:24,478] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.029 seconds
+[2023-06-22 11:24:59,377] {processor.py:153} INFO - Started process (PID=38509) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:24:59,377] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-06-22 11:24:59,378] {logging_mixin.py:115} INFO - [2023-06-22 11:24:59,378] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:24:59,389] {logging_mixin.py:115} INFO - [2023-06-22 11:24:59,389] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-06-22 11:24:59,389] {logging_mixin.py:115} INFO - [2023-06-22 11:24:59,389] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-06-22 11:24:59,390] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:24:59,399] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.025 seconds
+[2023-06-22 11:25:33,102] {processor.py:153} INFO - Started process (PID=38707) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:25:33,104] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-06-22 11:25:33,105] {logging_mixin.py:115} INFO - [2023-06-22 11:25:33,105] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:25:33,121] {logging_mixin.py:115} INFO - [2023-06-22 11:25:33,120] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-06-22 11:25:33,121] {logging_mixin.py:115} INFO - [2023-06-22 11:25:33,121] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-06-22 11:25:33,121] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:25:33,130] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.033 seconds
+[2023-06-22 11:26:06,906] {processor.py:153} INFO - Started process (PID=38904) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:26:06,907] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-06-22 11:26:06,907] {logging_mixin.py:115} INFO - [2023-06-22 11:26:06,907] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:26:06,919] {logging_mixin.py:115} INFO - [2023-06-22 11:26:06,919] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-06-22 11:26:06,920] {logging_mixin.py:115} INFO - [2023-06-22 11:26:06,920] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-06-22 11:26:06,920] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:26:06,928] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.025 seconds
+[2023-06-22 11:26:43,511] {processor.py:153} INFO - Started process (PID=39119) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:26:43,512] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-06-22 11:26:43,513] {logging_mixin.py:115} INFO - [2023-06-22 11:26:43,513] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:26:43,526] {logging_mixin.py:115} INFO - [2023-06-22 11:26:43,525] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-06-22 11:26:43,526] {logging_mixin.py:115} INFO - [2023-06-22 11:26:43,526] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-06-22 11:26:43,526] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:26:43,535] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.027 seconds
+[2023-06-22 11:27:19,437] {processor.py:153} INFO - Started process (PID=39327) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:27:19,438] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-06-22 11:27:19,439] {logging_mixin.py:115} INFO - [2023-06-22 11:27:19,439] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:27:19,451] {logging_mixin.py:115} INFO - [2023-06-22 11:27:19,450] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-06-22 11:27:19,451] {logging_mixin.py:115} INFO - [2023-06-22 11:27:19,451] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-06-22 11:27:19,451] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:27:19,461] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.026 seconds
+[2023-06-22 11:27:56,557] {processor.py:153} INFO - Started process (PID=39581) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:27:56,558] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-06-22 11:27:56,559] {logging_mixin.py:115} INFO - [2023-06-22 11:27:56,559] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:27:56,571] {logging_mixin.py:115} INFO - [2023-06-22 11:27:56,571] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-06-22 11:27:56,571] {logging_mixin.py:115} INFO - [2023-06-22 11:27:56,571] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-06-22 11:27:56,571] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:27:56,581] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.026 seconds
+[2023-06-22 11:28:31,332] {processor.py:153} INFO - Started process (PID=39873) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:28:31,333] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-06-22 11:28:31,334] {logging_mixin.py:115} INFO - [2023-06-22 11:28:31,334] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:28:31,350] {logging_mixin.py:115} INFO - [2023-06-22 11:28:31,350] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-06-22 11:28:31,350] {logging_mixin.py:115} INFO - [2023-06-22 11:28:31,350] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-06-22 11:28:31,350] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:28:31,358] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.032 seconds
+[2023-06-22 11:29:03,185] {processor.py:153} INFO - Started process (PID=40128) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:29:03,186] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-06-22 11:29:03,187] {logging_mixin.py:115} INFO - [2023-06-22 11:29:03,186] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:29:03,200] {logging_mixin.py:115} INFO - [2023-06-22 11:29:03,199] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-06-22 11:29:03,200] {logging_mixin.py:115} INFO - [2023-06-22 11:29:03,200] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-06-22 11:29:03,200] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:29:03,210] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.027 seconds
+[2023-06-22 11:29:36,961] {processor.py:153} INFO - Started process (PID=40327) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:29:36,962] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-06-22 11:29:36,963] {logging_mixin.py:115} INFO - [2023-06-22 11:29:36,962] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:29:36,976] {logging_mixin.py:115} INFO - [2023-06-22 11:29:36,975] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-06-22 11:29:36,976] {logging_mixin.py:115} INFO - [2023-06-22 11:29:36,976] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-06-22 11:29:36,976] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:29:36,988] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.030 seconds
+[2023-06-22 11:30:11,191] {processor.py:153} INFO - Started process (PID=40558) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:30:11,192] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-06-22 11:30:11,193] {logging_mixin.py:115} INFO - [2023-06-22 11:30:11,193] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:30:11,213] {logging_mixin.py:115} INFO - [2023-06-22 11:30:11,212] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-06-22 11:30:11,213] {logging_mixin.py:115} INFO - [2023-06-22 11:30:11,213] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-06-22 11:30:11,213] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:30:11,228] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.041 seconds
+[2023-06-22 11:30:49,892] {processor.py:153} INFO - Started process (PID=40808) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:30:49,893] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-06-22 11:30:49,894] {logging_mixin.py:115} INFO - [2023-06-22 11:30:49,894] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:30:49,907] {logging_mixin.py:115} INFO - [2023-06-22 11:30:49,906] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-06-22 11:30:49,907] {logging_mixin.py:115} INFO - [2023-06-22 11:30:49,907] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-06-22 11:30:49,907] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:30:49,915] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.026 seconds
+[2023-06-22 11:31:28,494] {processor.py:153} INFO - Started process (PID=41230) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:31:28,495] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-06-22 11:31:28,495] {logging_mixin.py:115} INFO - [2023-06-22 11:31:28,495] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:31:28,510] {logging_mixin.py:115} INFO - [2023-06-22 11:31:28,509] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-06-22 11:31:28,510] {logging_mixin.py:115} INFO - [2023-06-22 11:31:28,510] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-06-22 11:31:28,510] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:31:28,519] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.028 seconds
+[2023-06-22 11:32:03,310] {processor.py:153} INFO - Started process (PID=41574) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:32:03,311] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-06-22 11:32:03,311] {logging_mixin.py:115} INFO - [2023-06-22 11:32:03,311] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:32:03,323] {logging_mixin.py:115} INFO - [2023-06-22 11:32:03,322] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-06-22 11:32:03,323] {logging_mixin.py:115} INFO - [2023-06-22 11:32:03,323] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-06-22 11:32:03,323] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:32:03,332] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.024 seconds
+[2023-06-22 11:32:37,237] {processor.py:153} INFO - Started process (PID=41934) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:32:37,238] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-06-22 11:32:37,238] {logging_mixin.py:115} INFO - [2023-06-22 11:32:37,238] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:32:37,249] {logging_mixin.py:115} INFO - [2023-06-22 11:32:37,249] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-06-22 11:32:37,249] {logging_mixin.py:115} INFO - [2023-06-22 11:32:37,249] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-06-22 11:32:37,249] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-06-22 11:32:37,258] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.023 seconds
