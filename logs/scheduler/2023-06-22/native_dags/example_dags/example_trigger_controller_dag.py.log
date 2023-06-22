@@ -1650,3 +1650,10 @@
 [2023-06-22 12:22:40,682] {logging_mixin.py:115} INFO - [2023-06-22 12:22:40,682] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-06-22 12:22:40,698] {logging_mixin.py:115} INFO - [2023-06-22 12:22:40,697] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
 [2023-06-22 12:22:40,708] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.056 seconds
+[2023-06-22 12:23:14,319] {processor.py:153} INFO - Started process (PID=61213) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2023-06-22 12:23:14,321] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2023-06-22 12:23:14,321] {logging_mixin.py:115} INFO - [2023-06-22 12:23:14,321] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2023-06-22 12:23:14,324] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2023-06-22 12:23:14,338] {logging_mixin.py:115} INFO - [2023-06-22 12:23:14,338] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:23:14,353] {logging_mixin.py:115} INFO - [2023-06-22 12:23:14,353] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-06-22 12:23:14,367] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.051 seconds
