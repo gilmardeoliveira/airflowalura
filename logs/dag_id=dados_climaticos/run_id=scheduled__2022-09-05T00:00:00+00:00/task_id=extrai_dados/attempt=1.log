@@ -1,0 +1,42 @@
+[2023-06-21 16:29:07,810] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.extrai_dados scheduled__2022-09-05T00:00:00+00:00 [queued]>
+[2023-06-21 16:29:07,816] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.extrai_dados scheduled__2022-09-05T00:00:00+00:00 [queued]>
+[2023-06-21 16:29:07,816] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-21 16:29:07,816] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-06-21 16:29:07,817] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-21 16:29:07,829] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): extrai_dados> on 2022-09-05 00:00:00+00:00
+[2023-06-21 16:29:07,833] {standard_task_runner.py:52} INFO - Started process 9428 to run task
+[2023-06-21 16:29:07,836] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'dados_climaticos', 'extrai_dados', 'scheduled__2022-09-05T00:00:00+00:00', '--job-id', '73', '--raw', '--subdir', 'DAGS_FOLDER/dados_climaticos.py', '--cfg-path', '/tmp/tmp5zljki51', '--error-file', '/tmp/tmp1xwdxdz3']
+[2023-06-21 16:29:07,837] {standard_task_runner.py:80} INFO - Job 73: Subtask extrai_dados
+[2023-06-21 16:29:07,876] {task_command.py:370} INFO - Running <TaskInstance: dados_climaticos.extrai_dados scheduled__2022-09-05T00:00:00+00:00 [running]> on host alura
+[2023-06-21 16:29:07,921] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=dados_climaticos
+AIRFLOW_CTX_TASK_ID=extrai_dados
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-05T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-09-05T00:00:00+00:00
+[2023-06-21 16:29:08,906] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/gilmar/Documentos/airflowalura/dags/dados_climaticos.py", line 31, in extrai_dados
+    dados.to_csv(file_path + 'dados_brutos.csv')
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/pandas/core/generic.py", line 3772, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/pandas/io/formats/format.py", line 1186, in to_csv
+    csv_formatter.save()
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/pandas/io/formats/csvs.py", line 240, in save
+    with get_handle(
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/pandas/io/common.py", line 737, in get_handle
+    check_parent_directory(str(handle))
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/pandas/io/common.py", line 600, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'home/millenagena/Documents/airflowalura/semana=2022-09-12'
+[2023-06-21 16:29:08,919] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=dados_climaticos, task_id=extrai_dados, execution_date=20220905T000000, start_date=20230621T192907, end_date=20230621T192908
+[2023-06-21 16:29:08,930] {standard_task_runner.py:92} ERROR - Failed to execute job 73 for task extrai_dados (Cannot save file into a non-existent directory: 'home/millenagena/Documents/airflowalura/semana=2022-09-12'; 9428)
+[2023-06-21 16:29:08,945] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-06-21 16:29:08,960] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

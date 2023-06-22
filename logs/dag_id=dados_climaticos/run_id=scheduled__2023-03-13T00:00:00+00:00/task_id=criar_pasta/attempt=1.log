@@ -1,0 +1,80 @@
+[2023-06-21 14:11:15,327] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.criar_pasta scheduled__2023-03-13T00:00:00+00:00 [queued]>
+[2023-06-21 14:11:15,332] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.criar_pasta scheduled__2023-03-13T00:00:00+00:00 [queued]>
+[2023-06-21 14:11:15,332] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-21 14:11:15,332] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-06-21 14:11:15,332] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-21 14:11:15,343] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): criar_pasta> on 2023-03-13 00:00:00+00:00
+[2023-06-21 14:11:15,347] {standard_task_runner.py:52} INFO - Started process 87391 to run task
+[2023-06-21 14:11:15,350] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'dados_climaticos', 'criar_pasta', 'scheduled__2023-03-13T00:00:00+00:00', '--job-id', '50', '--raw', '--subdir', 'DAGS_FOLDER/dados_climaticos.py', '--cfg-path', '/tmp/tmpcw30al_0', '--error-file', '/tmp/tmp3auhobxx']
+[2023-06-21 14:11:15,351] {standard_task_runner.py:80} INFO - Job 50: Subtask criar_pasta
+[2023-06-21 14:11:15,384] {task_command.py:370} INFO - Running <TaskInstance: dados_climaticos.criar_pasta scheduled__2023-03-13T00:00:00+00:00 [running]> on host alura
+[2023-06-21 14:11:15,402] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1451, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode)
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1555, in _execute_task_with_callbacks
+    task_orig = self.render_templates(context=context)
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 2212, in render_templates
+    rendered_task = self.task.render_template_fields(context)
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 1185, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/utils/session.py", line 71, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/models/abstractoperator.py", line 344, in _do_render_template_fields
+    rendered_content = self.render_template(
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/models/abstractoperator.py", line 387, in render_template
+    template = jinja_env.from_string(value)
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1092, in from_string
+    return cls.from_code(self, self.compile(source), gs, None)
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/jinja2/environment.py", line 757, in compile
+    self.handle_exception(source=source_hint)
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "<unknown>", line 1, in template
+jinja2.exceptions.TemplateSyntaxError: unexpected end of template, expected ','.
+[2023-06-21 14:11:15,406] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=dados_climaticos, task_id=criar_pasta, execution_date=20230313T000000, start_date=20230621T171115, end_date=20230621T171115
+[2023-06-21 14:11:15,414] {standard_task_runner.py:92} ERROR - Failed to execute job 50 for task criar_pasta (unexpected end of template, expected ','.; 87391)
+[2023-06-21 14:11:15,445] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-06-21 14:11:15,467] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-06-21 14:16:24,787] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.criar_pasta scheduled__2023-03-13T00:00:00+00:00 [queued]>
+[2023-06-21 14:16:24,791] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.criar_pasta scheduled__2023-03-13T00:00:00+00:00 [queued]>
+[2023-06-21 14:16:24,791] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-21 14:16:24,792] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-06-21 14:16:24,792] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-21 14:16:24,803] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): criar_pasta> on 2023-03-13 00:00:00+00:00
+[2023-06-21 14:16:24,807] {standard_task_runner.py:52} INFO - Started process 87925 to run task
+[2023-06-21 14:16:24,810] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'dados_climaticos', 'criar_pasta', 'scheduled__2023-03-13T00:00:00+00:00', '--job-id', '50', '--raw', '--subdir', 'DAGS_FOLDER/dados_climaticos.py', '--cfg-path', '/tmp/tmpx6p8t1_k', '--error-file', '/tmp/tmpqvfrkmsp']
+[2023-06-21 14:16:24,811] {standard_task_runner.py:80} INFO - Job 50: Subtask criar_pasta
+[2023-06-21 14:16:24,849] {task_command.py:370} INFO - Running <TaskInstance: dados_climaticos.criar_pasta scheduled__2023-03-13T00:00:00+00:00 [running]> on host alura
+[2023-06-21 14:16:24,874] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1451, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode)
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1555, in _execute_task_with_callbacks
+    task_orig = self.render_templates(context=context)
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 2212, in render_templates
+    rendered_task = self.task.render_template_fields(context)
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 1185, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/utils/session.py", line 71, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/models/abstractoperator.py", line 344, in _do_render_template_fields
+    rendered_content = self.render_template(
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/models/abstractoperator.py", line 387, in render_template
+    template = jinja_env.from_string(value)
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1092, in from_string
+    return cls.from_code(self, self.compile(source), gs, None)
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/jinja2/environment.py", line 757, in compile
+    self.handle_exception(source=source_hint)
+  File "/home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "<unknown>", line 1, in template
+jinja2.exceptions.TemplateSyntaxError: unexpected end of template, expected ','.
+[2023-06-21 14:16:24,877] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=dados_climaticos, task_id=criar_pasta, execution_date=20230313T000000, start_date=20230621T171624, end_date=20230621T171624
+[2023-06-21 14:16:24,887] {standard_task_runner.py:92} ERROR - Failed to execute job 50 for task criar_pasta (unexpected end of template, expected ','.; 87925)
+[2023-06-21 14:16:24,905] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-06-21 14:16:24,928] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
