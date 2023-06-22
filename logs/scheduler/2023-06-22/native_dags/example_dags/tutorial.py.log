@@ -1027,3 +1027,563 @@
 [2023-06-22 11:32:49,849] {logging_mixin.py:115} INFO - [2023-06-22 11:32:49,849] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-06-22 11:32:49,863] {logging_mixin.py:115} INFO - [2023-06-22 11:32:49,863] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:32:49.863598+00:00, run_after=2023-06-22T14:32:49.863598+00:00
 [2023-06-22 11:32:49,873] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.046 seconds
+[2023-06-22 11:33:23,721] {processor.py:153} INFO - Started process (PID=42377) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:33:23,721] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:33:23,722] {logging_mixin.py:115} INFO - [2023-06-22 11:33:23,722] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:33:23,728] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:33:23,741] {logging_mixin.py:115} INFO - [2023-06-22 11:33:23,741] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:33:23,754] {logging_mixin.py:115} INFO - [2023-06-22 11:33:23,754] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:33:23.754476+00:00, run_after=2023-06-22T14:33:23.754476+00:00
+[2023-06-22 11:33:23,765] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.047 seconds
+[2023-06-22 11:33:57,339] {processor.py:153} INFO - Started process (PID=42580) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:33:57,340] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:33:57,341] {logging_mixin.py:115} INFO - [2023-06-22 11:33:57,341] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:33:57,347] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:33:57,364] {logging_mixin.py:115} INFO - [2023-06-22 11:33:57,364] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:33:57,388] {logging_mixin.py:115} INFO - [2023-06-22 11:33:57,388] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:33:57.388215+00:00, run_after=2023-06-22T14:33:57.388215+00:00
+[2023-06-22 11:33:57,407] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.071 seconds
+[2023-06-22 11:34:31,239] {processor.py:153} INFO - Started process (PID=42777) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:34:31,240] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:34:31,241] {logging_mixin.py:115} INFO - [2023-06-22 11:34:31,241] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:34:31,246] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:34:31,259] {logging_mixin.py:115} INFO - [2023-06-22 11:34:31,258] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:34:31,271] {logging_mixin.py:115} INFO - [2023-06-22 11:34:31,271] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:34:31.271546+00:00, run_after=2023-06-22T14:34:31.271546+00:00
+[2023-06-22 11:34:31,282] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.045 seconds
+[2023-06-22 11:35:07,203] {processor.py:153} INFO - Started process (PID=42990) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:35:07,204] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:35:07,205] {logging_mixin.py:115} INFO - [2023-06-22 11:35:07,205] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:35:07,210] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:35:07,223] {logging_mixin.py:115} INFO - [2023-06-22 11:35:07,223] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:35:07,238] {logging_mixin.py:115} INFO - [2023-06-22 11:35:07,238] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:35:07.238618+00:00, run_after=2023-06-22T14:35:07.238618+00:00
+[2023-06-22 11:35:07,249] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.048 seconds
+[2023-06-22 11:35:39,870] {processor.py:153} INFO - Started process (PID=43182) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:35:39,871] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:35:39,871] {logging_mixin.py:115} INFO - [2023-06-22 11:35:39,871] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:35:39,877] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:35:39,890] {logging_mixin.py:115} INFO - [2023-06-22 11:35:39,890] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:35:39,904] {logging_mixin.py:115} INFO - [2023-06-22 11:35:39,904] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:35:39.903891+00:00, run_after=2023-06-22T14:35:39.903891+00:00
+[2023-06-22 11:35:39,916] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.049 seconds
+[2023-06-22 11:36:15,561] {processor.py:153} INFO - Started process (PID=43398) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:36:15,562] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:36:15,562] {logging_mixin.py:115} INFO - [2023-06-22 11:36:15,562] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:36:15,567] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:36:15,580] {logging_mixin.py:115} INFO - [2023-06-22 11:36:15,580] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:36:15,592] {logging_mixin.py:115} INFO - [2023-06-22 11:36:15,592] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:36:15.592328+00:00, run_after=2023-06-22T14:36:15.592328+00:00
+[2023-06-22 11:36:15,602] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.044 seconds
+[2023-06-22 11:36:47,792] {processor.py:153} INFO - Started process (PID=43585) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:36:47,793] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:36:47,794] {logging_mixin.py:115} INFO - [2023-06-22 11:36:47,794] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:36:47,800] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:36:47,814] {logging_mixin.py:115} INFO - [2023-06-22 11:36:47,813] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:36:47,828] {logging_mixin.py:115} INFO - [2023-06-22 11:36:47,827] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:36:47.827541+00:00, run_after=2023-06-22T14:36:47.827541+00:00
+[2023-06-22 11:36:47,838] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.049 seconds
+[2023-06-22 11:37:21,378] {processor.py:153} INFO - Started process (PID=43783) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:37:21,380] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:37:21,381] {logging_mixin.py:115} INFO - [2023-06-22 11:37:21,381] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:37:21,387] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:37:21,404] {logging_mixin.py:115} INFO - [2023-06-22 11:37:21,404] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:37:21,420] {logging_mixin.py:115} INFO - [2023-06-22 11:37:21,420] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:37:21.420311+00:00, run_after=2023-06-22T14:37:21.420311+00:00
+[2023-06-22 11:37:21,434] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.058 seconds
+[2023-06-22 11:37:53,546] {processor.py:153} INFO - Started process (PID=43972) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:37:53,547] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:37:53,548] {logging_mixin.py:115} INFO - [2023-06-22 11:37:53,548] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:37:53,552] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:37:53,566] {logging_mixin.py:115} INFO - [2023-06-22 11:37:53,566] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:37:53,579] {logging_mixin.py:115} INFO - [2023-06-22 11:37:53,579] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:37:53.579615+00:00, run_after=2023-06-22T14:37:53.579615+00:00
+[2023-06-22 11:37:53,589] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.046 seconds
+[2023-06-22 11:38:31,706] {processor.py:153} INFO - Started process (PID=44192) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:38:31,706] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:38:31,708] {logging_mixin.py:115} INFO - [2023-06-22 11:38:31,708] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:38:31,713] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:38:31,728] {logging_mixin.py:115} INFO - [2023-06-22 11:38:31,728] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:38:31,741] {logging_mixin.py:115} INFO - [2023-06-22 11:38:31,741] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:38:31.741682+00:00, run_after=2023-06-22T14:38:31.741682+00:00
+[2023-06-22 11:38:31,753] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.050 seconds
+[2023-06-22 11:39:08,264] {processor.py:153} INFO - Started process (PID=44406) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:39:08,265] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:39:08,265] {logging_mixin.py:115} INFO - [2023-06-22 11:39:08,265] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:39:08,271] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:39:08,284] {logging_mixin.py:115} INFO - [2023-06-22 11:39:08,284] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:39:08,299] {logging_mixin.py:115} INFO - [2023-06-22 11:39:08,299] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:39:08.299192+00:00, run_after=2023-06-22T14:39:08.299192+00:00
+[2023-06-22 11:39:08,312] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.051 seconds
+[2023-06-22 11:39:40,238] {processor.py:153} INFO - Started process (PID=44595) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:39:40,240] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:39:40,240] {logging_mixin.py:115} INFO - [2023-06-22 11:39:40,240] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:39:40,248] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:39:40,265] {logging_mixin.py:115} INFO - [2023-06-22 11:39:40,264] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:39:40,282] {logging_mixin.py:115} INFO - [2023-06-22 11:39:40,282] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:39:40.282433+00:00, run_after=2023-06-22T14:39:40.282433+00:00
+[2023-06-22 11:39:40,295] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.060 seconds
+[2023-06-22 11:40:15,162] {processor.py:153} INFO - Started process (PID=44796) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:40:15,163] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:40:15,164] {logging_mixin.py:115} INFO - [2023-06-22 11:40:15,164] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:40:15,169] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:40:15,183] {logging_mixin.py:115} INFO - [2023-06-22 11:40:15,183] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:40:15,197] {logging_mixin.py:115} INFO - [2023-06-22 11:40:15,197] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:40:15.197385+00:00, run_after=2023-06-22T14:40:15.197385+00:00
+[2023-06-22 11:40:15,207] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.048 seconds
+[2023-06-22 11:40:50,345] {processor.py:153} INFO - Started process (PID=45004) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:40:50,346] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:40:50,347] {logging_mixin.py:115} INFO - [2023-06-22 11:40:50,347] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:40:50,352] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:40:50,368] {logging_mixin.py:115} INFO - [2023-06-22 11:40:50,368] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:40:50,384] {logging_mixin.py:115} INFO - [2023-06-22 11:40:50,384] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:40:50.383812+00:00, run_after=2023-06-22T14:40:50.383812+00:00
+[2023-06-22 11:40:50,395] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.051 seconds
+[2023-06-22 11:41:28,302] {processor.py:153} INFO - Started process (PID=45226) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:41:28,303] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:41:28,304] {logging_mixin.py:115} INFO - [2023-06-22 11:41:28,304] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:41:28,309] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:41:28,325] {logging_mixin.py:115} INFO - [2023-06-22 11:41:28,325] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:41:28,342] {logging_mixin.py:115} INFO - [2023-06-22 11:41:28,342] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:41:28.342448+00:00, run_after=2023-06-22T14:41:28.342448+00:00
+[2023-06-22 11:41:28,358] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.059 seconds
+[2023-06-22 11:42:04,325] {processor.py:153} INFO - Started process (PID=45442) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:42:04,326] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:42:04,326] {logging_mixin.py:115} INFO - [2023-06-22 11:42:04,326] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:42:04,333] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:42:04,347] {logging_mixin.py:115} INFO - [2023-06-22 11:42:04,347] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:42:04,365] {logging_mixin.py:115} INFO - [2023-06-22 11:42:04,364] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:42:04.364629+00:00, run_after=2023-06-22T14:42:04.364629+00:00
+[2023-06-22 11:42:04,376] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.054 seconds
+[2023-06-22 11:42:42,737] {processor.py:153} INFO - Started process (PID=45667) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:42:42,738] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:42:42,739] {logging_mixin.py:115} INFO - [2023-06-22 11:42:42,739] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:42:42,744] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:42:42,760] {logging_mixin.py:115} INFO - [2023-06-22 11:42:42,760] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:42:42,779] {logging_mixin.py:115} INFO - [2023-06-22 11:42:42,779] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:42:42.778878+00:00, run_after=2023-06-22T14:42:42.778878+00:00
+[2023-06-22 11:42:42,792] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.059 seconds
+[2023-06-22 11:43:17,901] {processor.py:153} INFO - Started process (PID=45880) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:43:17,902] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:43:17,902] {logging_mixin.py:115} INFO - [2023-06-22 11:43:17,902] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:43:17,909] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:43:17,928] {logging_mixin.py:115} INFO - [2023-06-22 11:43:17,928] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:43:17,944] {logging_mixin.py:115} INFO - [2023-06-22 11:43:17,944] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:43:17.944513+00:00, run_after=2023-06-22T14:43:17.944513+00:00
+[2023-06-22 11:43:17,962] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.064 seconds
+[2023-06-22 11:43:49,901] {processor.py:153} INFO - Started process (PID=46066) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:43:49,902] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:43:49,903] {logging_mixin.py:115} INFO - [2023-06-22 11:43:49,903] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:43:49,908] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:43:49,923] {logging_mixin.py:115} INFO - [2023-06-22 11:43:49,923] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:43:49,939] {logging_mixin.py:115} INFO - [2023-06-22 11:43:49,939] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:43:49.939128+00:00, run_after=2023-06-22T14:43:49.939128+00:00
+[2023-06-22 11:43:49,959] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.061 seconds
+[2023-06-22 11:44:24,680] {processor.py:153} INFO - Started process (PID=46275) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:44:24,685] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:44:24,686] {logging_mixin.py:115} INFO - [2023-06-22 11:44:24,686] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:44:24,695] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:44:24,715] {logging_mixin.py:115} INFO - [2023-06-22 11:44:24,714] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:44:24,736] {logging_mixin.py:115} INFO - [2023-06-22 11:44:24,736] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:44:24.735915+00:00, run_after=2023-06-22T14:44:24.735915+00:00
+[2023-06-22 11:44:24,757] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.091 seconds
+[2023-06-22 11:44:57,699] {processor.py:153} INFO - Started process (PID=46466) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:44:57,699] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:44:57,700] {logging_mixin.py:115} INFO - [2023-06-22 11:44:57,700] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:44:57,705] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:44:57,717] {logging_mixin.py:115} INFO - [2023-06-22 11:44:57,717] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:44:57,731] {logging_mixin.py:115} INFO - [2023-06-22 11:44:57,731] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:44:57.731168+00:00, run_after=2023-06-22T14:44:57.731168+00:00
+[2023-06-22 11:44:57,742] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.046 seconds
+[2023-06-22 11:45:31,910] {processor.py:153} INFO - Started process (PID=46667) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:45:31,910] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:45:31,911] {logging_mixin.py:115} INFO - [2023-06-22 11:45:31,911] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:45:31,916] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:45:31,929] {logging_mixin.py:115} INFO - [2023-06-22 11:45:31,928] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:45:31,942] {logging_mixin.py:115} INFO - [2023-06-22 11:45:31,942] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:45:31.942334+00:00, run_after=2023-06-22T14:45:31.942334+00:00
+[2023-06-22 11:45:31,952] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.045 seconds
+[2023-06-22 11:46:07,735] {processor.py:153} INFO - Started process (PID=46878) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:46:07,735] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:46:07,736] {logging_mixin.py:115} INFO - [2023-06-22 11:46:07,736] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:46:07,740] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:46:07,753] {logging_mixin.py:115} INFO - [2023-06-22 11:46:07,753] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:46:07,766] {logging_mixin.py:115} INFO - [2023-06-22 11:46:07,766] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:46:07.766039+00:00, run_after=2023-06-22T14:46:07.766039+00:00
+[2023-06-22 11:46:07,776] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.044 seconds
+[2023-06-22 11:46:42,786] {processor.py:153} INFO - Started process (PID=47130) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:46:42,787] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:46:42,788] {logging_mixin.py:115} INFO - [2023-06-22 11:46:42,788] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:46:42,793] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:46:42,809] {logging_mixin.py:115} INFO - [2023-06-22 11:46:42,808] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:46:42,824] {logging_mixin.py:115} INFO - [2023-06-22 11:46:42,824] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:46:42.823752+00:00, run_after=2023-06-22T14:46:42.823752+00:00
+[2023-06-22 11:46:42,833] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.050 seconds
+[2023-06-22 11:47:15,783] {processor.py:153} INFO - Started process (PID=47333) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:47:15,783] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:47:15,784] {logging_mixin.py:115} INFO - [2023-06-22 11:47:15,784] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:47:15,789] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:47:15,803] {logging_mixin.py:115} INFO - [2023-06-22 11:47:15,803] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:47:15,817] {logging_mixin.py:115} INFO - [2023-06-22 11:47:15,817] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:47:15.817597+00:00, run_after=2023-06-22T14:47:15.817597+00:00
+[2023-06-22 11:47:15,829] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.049 seconds
+[2023-06-22 11:47:51,020] {processor.py:153} INFO - Started process (PID=47531) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:47:51,021] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:47:51,021] {logging_mixin.py:115} INFO - [2023-06-22 11:47:51,021] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:47:51,026] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:47:51,040] {logging_mixin.py:115} INFO - [2023-06-22 11:47:51,040] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:47:51,058] {logging_mixin.py:115} INFO - [2023-06-22 11:47:51,057] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:47:51.057705+00:00, run_after=2023-06-22T14:47:51.057705+00:00
+[2023-06-22 11:47:51,069] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.053 seconds
+[2023-06-22 11:48:24,309] {processor.py:153} INFO - Started process (PID=47728) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:48:24,310] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:48:24,311] {logging_mixin.py:115} INFO - [2023-06-22 11:48:24,311] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:48:24,316] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:48:24,331] {logging_mixin.py:115} INFO - [2023-06-22 11:48:24,331] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:48:24,345] {logging_mixin.py:115} INFO - [2023-06-22 11:48:24,345] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:48:24.345109+00:00, run_after=2023-06-22T14:48:24.345109+00:00
+[2023-06-22 11:48:24,358] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.051 seconds
+[2023-06-22 11:48:58,274] {processor.py:153} INFO - Started process (PID=47922) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:48:58,275] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:48:58,275] {logging_mixin.py:115} INFO - [2023-06-22 11:48:58,275] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:48:58,281] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:48:58,294] {logging_mixin.py:115} INFO - [2023-06-22 11:48:58,294] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:48:58,309] {logging_mixin.py:115} INFO - [2023-06-22 11:48:58,309] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:48:58.309553+00:00, run_after=2023-06-22T14:48:58.309553+00:00
+[2023-06-22 11:48:58,320] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.049 seconds
+[2023-06-22 11:49:35,294] {processor.py:153} INFO - Started process (PID=48140) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:49:35,295] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:49:35,295] {logging_mixin.py:115} INFO - [2023-06-22 11:49:35,295] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:49:35,301] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:49:35,318] {logging_mixin.py:115} INFO - [2023-06-22 11:49:35,317] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:49:35,333] {logging_mixin.py:115} INFO - [2023-06-22 11:49:35,333] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:49:35.332736+00:00, run_after=2023-06-22T14:49:35.332736+00:00
+[2023-06-22 11:49:35,345] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.054 seconds
+[2023-06-22 11:50:11,295] {processor.py:153} INFO - Started process (PID=48355) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:50:11,296] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:50:11,297] {logging_mixin.py:115} INFO - [2023-06-22 11:50:11,297] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:50:11,301] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:50:11,317] {logging_mixin.py:115} INFO - [2023-06-22 11:50:11,317] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:50:11,331] {logging_mixin.py:115} INFO - [2023-06-22 11:50:11,331] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:50:11.331399+00:00, run_after=2023-06-22T14:50:11.331399+00:00
+[2023-06-22 11:50:11,343] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.050 seconds
+[2023-06-22 11:50:48,575] {processor.py:153} INFO - Started process (PID=48576) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:50:48,576] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:50:48,577] {logging_mixin.py:115} INFO - [2023-06-22 11:50:48,577] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:50:48,582] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:50:48,596] {logging_mixin.py:115} INFO - [2023-06-22 11:50:48,596] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:50:48,612] {logging_mixin.py:115} INFO - [2023-06-22 11:50:48,611] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:50:48.611734+00:00, run_after=2023-06-22T14:50:48.611734+00:00
+[2023-06-22 11:50:48,623] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.051 seconds
+[2023-06-22 11:51:23,512] {processor.py:153} INFO - Started process (PID=48781) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:51:23,513] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:51:23,514] {logging_mixin.py:115} INFO - [2023-06-22 11:51:23,514] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:51:23,520] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:51:23,534] {logging_mixin.py:115} INFO - [2023-06-22 11:51:23,534] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:51:23,552] {logging_mixin.py:115} INFO - [2023-06-22 11:51:23,552] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:51:23.552389+00:00, run_after=2023-06-22T14:51:23.552389+00:00
+[2023-06-22 11:51:23,562] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.053 seconds
+[2023-06-22 11:51:58,452] {processor.py:153} INFO - Started process (PID=48985) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:51:58,453] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:51:58,453] {logging_mixin.py:115} INFO - [2023-06-22 11:51:58,453] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:51:58,459] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:51:58,473] {logging_mixin.py:115} INFO - [2023-06-22 11:51:58,473] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:51:58,487] {logging_mixin.py:115} INFO - [2023-06-22 11:51:58,487] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:51:58.487221+00:00, run_after=2023-06-22T14:51:58.487221+00:00
+[2023-06-22 11:51:58,498] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.049 seconds
+[2023-06-22 11:52:33,225] {processor.py:153} INFO - Started process (PID=49191) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:52:33,227] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:52:33,228] {logging_mixin.py:115} INFO - [2023-06-22 11:52:33,228] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:52:33,233] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:52:33,246] {logging_mixin.py:115} INFO - [2023-06-22 11:52:33,246] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:52:33,263] {logging_mixin.py:115} INFO - [2023-06-22 11:52:33,263] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:52:33.263561+00:00, run_after=2023-06-22T14:52:33.263561+00:00
+[2023-06-22 11:52:33,274] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.052 seconds
+[2023-06-22 11:53:06,527] {processor.py:153} INFO - Started process (PID=49378) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:53:06,529] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:53:06,530] {logging_mixin.py:115} INFO - [2023-06-22 11:53:06,529] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:53:06,534] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:53:06,549] {logging_mixin.py:115} INFO - [2023-06-22 11:53:06,549] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:53:06,566] {logging_mixin.py:115} INFO - [2023-06-22 11:53:06,566] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:53:06.565892+00:00, run_after=2023-06-22T14:53:06.565892+00:00
+[2023-06-22 11:53:06,581] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.058 seconds
+[2023-06-22 11:53:43,622] {processor.py:153} INFO - Started process (PID=49588) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:53:43,623] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:53:43,623] {logging_mixin.py:115} INFO - [2023-06-22 11:53:43,623] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:53:43,628] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:53:43,641] {logging_mixin.py:115} INFO - [2023-06-22 11:53:43,641] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:53:43,656] {logging_mixin.py:115} INFO - [2023-06-22 11:53:43,656] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:53:43.655968+00:00, run_after=2023-06-22T14:53:43.655968+00:00
+[2023-06-22 11:53:43,666] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.046 seconds
+[2023-06-22 11:54:18,447] {processor.py:153} INFO - Started process (PID=49794) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:54:18,448] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:54:18,448] {logging_mixin.py:115} INFO - [2023-06-22 11:54:18,448] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:54:18,453] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:54:18,466] {logging_mixin.py:115} INFO - [2023-06-22 11:54:18,466] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:54:18,480] {logging_mixin.py:115} INFO - [2023-06-22 11:54:18,480] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:54:18.480570+00:00, run_after=2023-06-22T14:54:18.480570+00:00
+[2023-06-22 11:54:18,490] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.046 seconds
+[2023-06-22 11:54:57,292] {processor.py:153} INFO - Started process (PID=50025) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:54:57,292] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:54:57,293] {logging_mixin.py:115} INFO - [2023-06-22 11:54:57,293] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:54:57,299] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:54:57,314] {logging_mixin.py:115} INFO - [2023-06-22 11:54:57,314] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:54:57,330] {logging_mixin.py:115} INFO - [2023-06-22 11:54:57,330] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:54:57.330376+00:00, run_after=2023-06-22T14:54:57.330376+00:00
+[2023-06-22 11:54:57,340] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.052 seconds
+[2023-06-22 11:55:36,759] {processor.py:153} INFO - Started process (PID=50253) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:55:36,760] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:55:36,760] {logging_mixin.py:115} INFO - [2023-06-22 11:55:36,760] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:55:36,766] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:55:36,781] {logging_mixin.py:115} INFO - [2023-06-22 11:55:36,781] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:55:36,795] {logging_mixin.py:115} INFO - [2023-06-22 11:55:36,795] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:55:36.795049+00:00, run_after=2023-06-22T14:55:36.795049+00:00
+[2023-06-22 11:55:36,805] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.048 seconds
+[2023-06-22 11:56:13,826] {processor.py:153} INFO - Started process (PID=50467) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:56:13,827] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:56:13,827] {logging_mixin.py:115} INFO - [2023-06-22 11:56:13,827] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:56:13,834] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:56:13,849] {logging_mixin.py:115} INFO - [2023-06-22 11:56:13,849] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:56:13,864] {logging_mixin.py:115} INFO - [2023-06-22 11:56:13,864] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:56:13.864247+00:00, run_after=2023-06-22T14:56:13.864247+00:00
+[2023-06-22 11:56:13,875] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.052 seconds
+[2023-06-22 11:56:49,627] {processor.py:153} INFO - Started process (PID=50678) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:56:49,628] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:56:49,628] {logging_mixin.py:115} INFO - [2023-06-22 11:56:49,628] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:56:49,633] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:56:49,648] {logging_mixin.py:115} INFO - [2023-06-22 11:56:49,648] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:56:49,663] {logging_mixin.py:115} INFO - [2023-06-22 11:56:49,663] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:56:49.663567+00:00, run_after=2023-06-22T14:56:49.663567+00:00
+[2023-06-22 11:56:49,676] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.052 seconds
+[2023-06-22 11:57:26,282] {processor.py:153} INFO - Started process (PID=50899) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:57:26,282] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:57:26,283] {logging_mixin.py:115} INFO - [2023-06-22 11:57:26,283] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:57:26,287] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:57:26,300] {logging_mixin.py:115} INFO - [2023-06-22 11:57:26,300] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:57:26,319] {logging_mixin.py:115} INFO - [2023-06-22 11:57:26,319] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:57:26.319498+00:00, run_after=2023-06-22T14:57:26.319498+00:00
+[2023-06-22 11:57:26,333] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.054 seconds
+[2023-06-22 11:58:00,733] {processor.py:153} INFO - Started process (PID=51107) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:58:00,734] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:58:00,735] {logging_mixin.py:115} INFO - [2023-06-22 11:58:00,735] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:58:00,743] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:58:00,761] {logging_mixin.py:115} INFO - [2023-06-22 11:58:00,761] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:58:00,776] {logging_mixin.py:115} INFO - [2023-06-22 11:58:00,776] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:58:00.776064+00:00, run_after=2023-06-22T14:58:00.776064+00:00
+[2023-06-22 11:58:00,785] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.057 seconds
+[2023-06-22 11:58:32,951] {processor.py:153} INFO - Started process (PID=51295) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:58:32,951] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:58:32,952] {logging_mixin.py:115} INFO - [2023-06-22 11:58:32,952] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:58:32,957] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:58:32,969] {logging_mixin.py:115} INFO - [2023-06-22 11:58:32,969] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:58:32,982] {logging_mixin.py:115} INFO - [2023-06-22 11:58:32,982] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:58:32.982639+00:00, run_after=2023-06-22T14:58:32.982639+00:00
+[2023-06-22 11:58:32,991] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.043 seconds
+[2023-06-22 11:59:10,623] {processor.py:153} INFO - Started process (PID=51505) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:59:10,624] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:59:10,625] {logging_mixin.py:115} INFO - [2023-06-22 11:59:10,625] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:59:10,633] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:59:10,649] {logging_mixin.py:115} INFO - [2023-06-22 11:59:10,649] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:59:10,662] {logging_mixin.py:115} INFO - [2023-06-22 11:59:10,662] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:59:10.662465+00:00, run_after=2023-06-22T14:59:10.662465+00:00
+[2023-06-22 11:59:10,677] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.061 seconds
+[2023-06-22 11:59:44,261] {processor.py:153} INFO - Started process (PID=51704) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:59:44,261] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 11:59:44,262] {logging_mixin.py:115} INFO - [2023-06-22 11:59:44,262] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:59:44,267] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 11:59:44,281] {logging_mixin.py:115} INFO - [2023-06-22 11:59:44,281] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 11:59:44,296] {logging_mixin.py:115} INFO - [2023-06-22 11:59:44,296] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T14:59:44.295815+00:00, run_after=2023-06-22T14:59:44.295815+00:00
+[2023-06-22 11:59:44,306] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.048 seconds
+[2023-06-22 12:00:23,772] {processor.py:153} INFO - Started process (PID=51923) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:00:23,773] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:00:23,774] {logging_mixin.py:115} INFO - [2023-06-22 12:00:23,774] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:00:23,778] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:00:23,791] {logging_mixin.py:115} INFO - [2023-06-22 12:00:23,791] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:00:23,804] {logging_mixin.py:115} INFO - [2023-06-22 12:00:23,803] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:00:23.803741+00:00, run_after=2023-06-22T15:00:23.803741+00:00
+[2023-06-22 12:00:23,813] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.043 seconds
+[2023-06-22 12:00:59,588] {processor.py:153} INFO - Started process (PID=52131) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:00:59,590] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:00:59,591] {logging_mixin.py:115} INFO - [2023-06-22 12:00:59,591] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:00:59,601] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:00:59,619] {logging_mixin.py:115} INFO - [2023-06-22 12:00:59,619] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:00:59,632] {logging_mixin.py:115} INFO - [2023-06-22 12:00:59,632] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:00:59.632332+00:00, run_after=2023-06-22T15:00:59.632332+00:00
+[2023-06-22 12:00:59,641] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.061 seconds
+[2023-06-22 12:01:37,467] {processor.py:153} INFO - Started process (PID=52355) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:01:37,468] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:01:37,468] {logging_mixin.py:115} INFO - [2023-06-22 12:01:37,468] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:01:37,473] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:01:37,485] {logging_mixin.py:115} INFO - [2023-06-22 12:01:37,485] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:01:37,498] {logging_mixin.py:115} INFO - [2023-06-22 12:01:37,497] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:01:37.497791+00:00, run_after=2023-06-22T15:01:37.497791+00:00
+[2023-06-22 12:01:37,508] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.044 seconds
+[2023-06-22 12:02:13,204] {processor.py:153} INFO - Started process (PID=52563) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:02:13,205] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:02:13,206] {logging_mixin.py:115} INFO - [2023-06-22 12:02:13,206] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:02:13,211] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:02:13,224] {logging_mixin.py:115} INFO - [2023-06-22 12:02:13,224] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:02:13,240] {logging_mixin.py:115} INFO - [2023-06-22 12:02:13,240] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:02:13.240619+00:00, run_after=2023-06-22T15:02:13.240619+00:00
+[2023-06-22 12:02:13,250] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.049 seconds
+[2023-06-22 12:02:49,126] {processor.py:153} INFO - Started process (PID=52771) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:02:49,127] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:02:49,128] {logging_mixin.py:115} INFO - [2023-06-22 12:02:49,128] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:02:49,133] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:02:49,146] {logging_mixin.py:115} INFO - [2023-06-22 12:02:49,146] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:02:49,159] {logging_mixin.py:115} INFO - [2023-06-22 12:02:49,159] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:02:49.159415+00:00, run_after=2023-06-22T15:02:49.159415+00:00
+[2023-06-22 12:02:49,168] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.044 seconds
+[2023-06-22 12:03:22,683] {processor.py:153} INFO - Started process (PID=52967) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:03:22,684] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:03:22,684] {logging_mixin.py:115} INFO - [2023-06-22 12:03:22,684] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:03:22,690] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:03:22,703] {logging_mixin.py:115} INFO - [2023-06-22 12:03:22,703] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:03:22,717] {logging_mixin.py:115} INFO - [2023-06-22 12:03:22,717] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:03:22.717111+00:00, run_after=2023-06-22T15:03:22.717111+00:00
+[2023-06-22 12:03:22,726] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.046 seconds
+[2023-06-22 12:03:56,993] {processor.py:153} INFO - Started process (PID=53166) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:03:56,994] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:03:56,995] {logging_mixin.py:115} INFO - [2023-06-22 12:03:56,994] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:03:56,999] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:03:57,013] {logging_mixin.py:115} INFO - [2023-06-22 12:03:57,013] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:03:57,027] {logging_mixin.py:115} INFO - [2023-06-22 12:03:57,027] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:03:57.026991+00:00, run_after=2023-06-22T15:03:57.026991+00:00
+[2023-06-22 12:03:57,040] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.050 seconds
+[2023-06-22 12:04:31,189] {processor.py:153} INFO - Started process (PID=53364) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:04:31,190] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:04:31,190] {logging_mixin.py:115} INFO - [2023-06-22 12:04:31,190] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:04:31,197] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:04:31,215] {logging_mixin.py:115} INFO - [2023-06-22 12:04:31,215] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:04:31,233] {logging_mixin.py:115} INFO - [2023-06-22 12:04:31,233] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:04:31.233302+00:00, run_after=2023-06-22T15:04:31.233302+00:00
+[2023-06-22 12:04:31,246] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.061 seconds
+[2023-06-22 12:05:05,051] {processor.py:153} INFO - Started process (PID=53562) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:05:05,052] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:05:05,053] {logging_mixin.py:115} INFO - [2023-06-22 12:05:05,053] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:05:05,060] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:05:05,078] {logging_mixin.py:115} INFO - [2023-06-22 12:05:05,078] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:05:05,092] {logging_mixin.py:115} INFO - [2023-06-22 12:05:05,092] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:05:05.091903+00:00, run_after=2023-06-22T15:05:05.091903+00:00
+[2023-06-22 12:05:05,101] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.055 seconds
+[2023-06-22 12:05:43,154] {processor.py:153} INFO - Started process (PID=53782) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:05:43,155] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:05:43,156] {logging_mixin.py:115} INFO - [2023-06-22 12:05:43,156] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:05:43,163] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:05:43,177] {logging_mixin.py:115} INFO - [2023-06-22 12:05:43,177] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:05:43,190] {logging_mixin.py:115} INFO - [2023-06-22 12:05:43,190] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:05:43.190450+00:00, run_after=2023-06-22T15:05:43.190450+00:00
+[2023-06-22 12:05:43,199] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.049 seconds
+[2023-06-22 12:06:16,843] {processor.py:153} INFO - Started process (PID=53979) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:06:16,845] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:06:16,845] {logging_mixin.py:115} INFO - [2023-06-22 12:06:16,845] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:06:16,850] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:06:16,865] {logging_mixin.py:115} INFO - [2023-06-22 12:06:16,865] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:06:16,881] {logging_mixin.py:115} INFO - [2023-06-22 12:06:16,881] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:06:16.881370+00:00, run_after=2023-06-22T15:06:16.881370+00:00
+[2023-06-22 12:06:16,891] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.051 seconds
+[2023-06-22 12:06:51,087] {processor.py:153} INFO - Started process (PID=54187) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:06:51,087] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:06:51,088] {logging_mixin.py:115} INFO - [2023-06-22 12:06:51,088] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:06:51,095] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:06:51,110] {logging_mixin.py:115} INFO - [2023-06-22 12:06:51,110] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:06:51,124] {logging_mixin.py:115} INFO - [2023-06-22 12:06:51,123] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:06:51.123542+00:00, run_after=2023-06-22T15:06:51.123542+00:00
+[2023-06-22 12:06:51,134] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.051 seconds
+[2023-06-22 12:07:24,655] {processor.py:153} INFO - Started process (PID=54380) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:07:24,656] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:07:24,657] {logging_mixin.py:115} INFO - [2023-06-22 12:07:24,657] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:07:24,663] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:07:24,677] {logging_mixin.py:115} INFO - [2023-06-22 12:07:24,677] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:07:24,690] {logging_mixin.py:115} INFO - [2023-06-22 12:07:24,690] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:07:24.690196+00:00, run_after=2023-06-22T15:07:24.690196+00:00
+[2023-06-22 12:07:24,699] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.047 seconds
+[2023-06-22 12:07:57,297] {processor.py:153} INFO - Started process (PID=54569) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:07:57,298] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:07:57,298] {logging_mixin.py:115} INFO - [2023-06-22 12:07:57,298] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:07:57,303] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:07:57,316] {logging_mixin.py:115} INFO - [2023-06-22 12:07:57,315] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:07:57,328] {logging_mixin.py:115} INFO - [2023-06-22 12:07:57,328] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:07:57.328394+00:00, run_after=2023-06-22T15:07:57.328394+00:00
+[2023-06-22 12:07:57,338] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.043 seconds
+[2023-06-22 12:08:32,787] {processor.py:153} INFO - Started process (PID=54769) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:08:32,789] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:08:32,789] {logging_mixin.py:115} INFO - [2023-06-22 12:08:32,789] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:08:32,794] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:08:32,812] {logging_mixin.py:115} INFO - [2023-06-22 12:08:32,812] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:08:32,828] {logging_mixin.py:115} INFO - [2023-06-22 12:08:32,828] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:08:32.827961+00:00, run_after=2023-06-22T15:08:32.827961+00:00
+[2023-06-22 12:08:32,838] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.053 seconds
+[2023-06-22 12:09:05,347] {processor.py:153} INFO - Started process (PID=54965) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:09:05,348] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:09:05,348] {logging_mixin.py:115} INFO - [2023-06-22 12:09:05,348] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:09:05,353] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:09:05,366] {logging_mixin.py:115} INFO - [2023-06-22 12:09:05,366] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:09:05,379] {logging_mixin.py:115} INFO - [2023-06-22 12:09:05,379] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:09:05.379077+00:00, run_after=2023-06-22T15:09:05.379077+00:00
+[2023-06-22 12:09:05,389] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.044 seconds
+[2023-06-22 12:09:39,712] {processor.py:153} INFO - Started process (PID=55163) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:09:39,713] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:09:39,713] {logging_mixin.py:115} INFO - [2023-06-22 12:09:39,713] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:09:39,718] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:09:39,730] {logging_mixin.py:115} INFO - [2023-06-22 12:09:39,730] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:09:39,744] {logging_mixin.py:115} INFO - [2023-06-22 12:09:39,744] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:09:39.744009+00:00, run_after=2023-06-22T15:09:39.744009+00:00
+[2023-06-22 12:09:39,753] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.044 seconds
+[2023-06-22 12:10:14,491] {processor.py:153} INFO - Started process (PID=55369) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:10:14,492] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:10:14,493] {logging_mixin.py:115} INFO - [2023-06-22 12:10:14,493] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:10:14,501] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:10:14,518] {logging_mixin.py:115} INFO - [2023-06-22 12:10:14,517] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:10:14,531] {logging_mixin.py:115} INFO - [2023-06-22 12:10:14,531] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:10:14.531175+00:00, run_after=2023-06-22T15:10:14.531175+00:00
+[2023-06-22 12:10:14,540] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.056 seconds
+[2023-06-22 12:10:48,432] {processor.py:153} INFO - Started process (PID=55571) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:10:48,433] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:10:48,434] {logging_mixin.py:115} INFO - [2023-06-22 12:10:48,434] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:10:48,441] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:10:48,456] {logging_mixin.py:115} INFO - [2023-06-22 12:10:48,456] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:10:48,472] {logging_mixin.py:115} INFO - [2023-06-22 12:10:48,472] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:10:48.472322+00:00, run_after=2023-06-22T15:10:48.472322+00:00
+[2023-06-22 12:10:48,482] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.056 seconds
+[2023-06-22 12:11:23,370] {processor.py:153} INFO - Started process (PID=55770) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:11:23,371] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:11:23,371] {logging_mixin.py:115} INFO - [2023-06-22 12:11:23,371] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:11:23,376] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:11:23,389] {logging_mixin.py:115} INFO - [2023-06-22 12:11:23,389] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:11:23,401] {logging_mixin.py:115} INFO - [2023-06-22 12:11:23,401] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:11:23.401123+00:00, run_after=2023-06-22T15:11:23.401123+00:00
+[2023-06-22 12:11:23,411] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.044 seconds
+[2023-06-22 12:11:57,291] {processor.py:153} INFO - Started process (PID=55968) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:11:57,293] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:11:57,294] {logging_mixin.py:115} INFO - [2023-06-22 12:11:57,294] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:11:57,302] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:11:57,318] {logging_mixin.py:115} INFO - [2023-06-22 12:11:57,318] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:11:57,332] {logging_mixin.py:115} INFO - [2023-06-22 12:11:57,332] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:11:57.331993+00:00, run_after=2023-06-22T15:11:57.331993+00:00
+[2023-06-22 12:11:57,354] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.069 seconds
+[2023-06-22 12:12:33,145] {processor.py:153} INFO - Started process (PID=56178) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:12:33,147] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:12:33,148] {logging_mixin.py:115} INFO - [2023-06-22 12:12:33,148] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:12:33,155] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:12:33,170] {logging_mixin.py:115} INFO - [2023-06-22 12:12:33,170] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:12:33,184] {logging_mixin.py:115} INFO - [2023-06-22 12:12:33,184] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:12:33.184412+00:00, run_after=2023-06-22T15:12:33.184412+00:00
+[2023-06-22 12:12:33,193] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.053 seconds
+[2023-06-22 12:13:07,965] {processor.py:153} INFO - Started process (PID=56387) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:13:07,965] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:13:07,966] {logging_mixin.py:115} INFO - [2023-06-22 12:13:07,966] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:13:07,971] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:13:07,983] {logging_mixin.py:115} INFO - [2023-06-22 12:13:07,983] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:13:07,997] {logging_mixin.py:115} INFO - [2023-06-22 12:13:07,997] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:13:07.996913+00:00, run_after=2023-06-22T15:13:07.996913+00:00
+[2023-06-22 12:13:08,006] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.044 seconds
+[2023-06-22 12:13:45,041] {processor.py:153} INFO - Started process (PID=56608) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:13:45,042] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:13:45,043] {logging_mixin.py:115} INFO - [2023-06-22 12:13:45,043] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:13:45,048] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:13:45,061] {logging_mixin.py:115} INFO - [2023-06-22 12:13:45,061] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:13:45,074] {logging_mixin.py:115} INFO - [2023-06-22 12:13:45,074] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:13:45.074002+00:00, run_after=2023-06-22T15:13:45.074002+00:00
+[2023-06-22 12:13:45,083] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.044 seconds
+[2023-06-22 12:14:19,859] {processor.py:153} INFO - Started process (PID=56809) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:14:19,860] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:14:19,861] {logging_mixin.py:115} INFO - [2023-06-22 12:14:19,861] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:14:19,868] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:14:19,885] {logging_mixin.py:115} INFO - [2023-06-22 12:14:19,885] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:14:19,899] {logging_mixin.py:115} INFO - [2023-06-22 12:14:19,899] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:14:19.899052+00:00, run_after=2023-06-22T15:14:19.899052+00:00
+[2023-06-22 12:14:19,912] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.056 seconds
+[2023-06-22 12:14:54,650] {processor.py:153} INFO - Started process (PID=57016) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:14:54,650] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:14:54,651] {logging_mixin.py:115} INFO - [2023-06-22 12:14:54,651] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:14:54,655] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:14:54,668] {logging_mixin.py:115} INFO - [2023-06-22 12:14:54,668] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:14:54,681] {logging_mixin.py:115} INFO - [2023-06-22 12:14:54,681] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:14:54.681513+00:00, run_after=2023-06-22T15:14:54.681513+00:00
+[2023-06-22 12:14:54,691] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.044 seconds
+[2023-06-22 12:15:29,485] {processor.py:153} INFO - Started process (PID=57218) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:15:29,487] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:15:29,488] {logging_mixin.py:115} INFO - [2023-06-22 12:15:29,488] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:15:29,496] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:15:29,512] {logging_mixin.py:115} INFO - [2023-06-22 12:15:29,512] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:15:29,525] {logging_mixin.py:115} INFO - [2023-06-22 12:15:29,525] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:15:29.525165+00:00, run_after=2023-06-22T15:15:29.525165+00:00
+[2023-06-22 12:15:29,538] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.058 seconds
+[2023-06-22 12:16:04,161] {processor.py:153} INFO - Started process (PID=57421) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:16:04,161] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:16:04,162] {logging_mixin.py:115} INFO - [2023-06-22 12:16:04,162] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:16:04,167] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:16:04,181] {logging_mixin.py:115} INFO - [2023-06-22 12:16:04,181] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:16:04,193] {logging_mixin.py:115} INFO - [2023-06-22 12:16:04,193] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:16:04.193546+00:00, run_after=2023-06-22T15:16:04.193546+00:00
+[2023-06-22 12:16:04,203] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.045 seconds
+[2023-06-22 12:16:38,441] {processor.py:153} INFO - Started process (PID=57624) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:16:38,443] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:16:38,444] {logging_mixin.py:115} INFO - [2023-06-22 12:16:38,444] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:16:38,452] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:16:38,473] {logging_mixin.py:115} INFO - [2023-06-22 12:16:38,473] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:16:38,491] {logging_mixin.py:115} INFO - [2023-06-22 12:16:38,491] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:16:38.491027+00:00, run_after=2023-06-22T15:16:38.491027+00:00
+[2023-06-22 12:16:38,502] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.066 seconds
+[2023-06-22 12:17:12,123] {processor.py:153} INFO - Started process (PID=57820) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:17:12,124] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:17:12,125] {logging_mixin.py:115} INFO - [2023-06-22 12:17:12,124] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:17:12,129] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:17:12,144] {logging_mixin.py:115} INFO - [2023-06-22 12:17:12,143] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:17:12,157] {logging_mixin.py:115} INFO - [2023-06-22 12:17:12,157] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:17:12.156886+00:00, run_after=2023-06-22T15:17:12.156886+00:00
+[2023-06-22 12:17:12,165] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.045 seconds
+[2023-06-22 12:17:46,626] {processor.py:153} INFO - Started process (PID=58015) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:17:46,627] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:17:46,627] {logging_mixin.py:115} INFO - [2023-06-22 12:17:46,627] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:17:46,632] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:17:46,645] {logging_mixin.py:115} INFO - [2023-06-22 12:17:46,645] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:17:46,658] {logging_mixin.py:115} INFO - [2023-06-22 12:17:46,657] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:17:46.657743+00:00, run_after=2023-06-22T15:17:46.657743+00:00
+[2023-06-22 12:17:46,666] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.043 seconds
+[2023-06-22 12:18:21,283] {processor.py:153} INFO - Started process (PID=58221) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:18:21,285] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:18:21,287] {logging_mixin.py:115} INFO - [2023-06-22 12:18:21,287] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:18:21,294] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:18:21,310] {logging_mixin.py:115} INFO - [2023-06-22 12:18:21,310] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:18:21,328] {logging_mixin.py:115} INFO - [2023-06-22 12:18:21,328] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:18:21.328506+00:00, run_after=2023-06-22T15:18:21.328506+00:00
+[2023-06-22 12:18:21,342] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.062 seconds
+[2023-06-22 12:18:54,217] {processor.py:153} INFO - Started process (PID=58425) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:18:54,218] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:18:54,218] {logging_mixin.py:115} INFO - [2023-06-22 12:18:54,218] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:18:54,223] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:18:54,236] {logging_mixin.py:115} INFO - [2023-06-22 12:18:54,236] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:18:54,249] {logging_mixin.py:115} INFO - [2023-06-22 12:18:54,249] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:18:54.248998+00:00, run_after=2023-06-22T15:18:54.248998+00:00
+[2023-06-22 12:18:54,258] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.044 seconds
+[2023-06-22 12:19:31,914] {processor.py:153} INFO - Started process (PID=58682) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:19:31,915] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-06-22 12:19:31,915] {logging_mixin.py:115} INFO - [2023-06-22 12:19:31,915] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:19:31,920] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-06-22 12:19:31,935] {logging_mixin.py:115} INFO - [2023-06-22 12:19:31,935] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:19:31,950] {logging_mixin.py:115} INFO - [2023-06-22 12:19:31,950] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-06-21T15:19:31.950181+00:00, run_after=2023-06-22T15:19:31.950181+00:00
+[2023-06-22 12:19:31,961] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.050 seconds
