@@ -1426,3 +1426,17 @@
 [2023-06-22 12:19:52,467] {logging_mixin.py:115} INFO - [2023-06-22 12:19:52,467] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-06-22 12:19:52,481] {logging_mixin.py:115} INFO - [2023-06-22 12:19:52,481] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-06-22T11:19:52.481159+00:00, run_after=2023-06-22T15:19:52.481159+00:00
 [2023-06-22 12:19:52,496] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.064 seconds
+[2023-06-22 12:20:34,223] {processor.py:153} INFO - Started process (PID=59267) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-06-22 12:20:34,223] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-06-22 12:20:34,224] {logging_mixin.py:115} INFO - [2023-06-22 12:20:34,224] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-06-22 12:20:34,229] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-06-22 12:20:34,245] {logging_mixin.py:115} INFO - [2023-06-22 12:20:34,245] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:20:34,261] {logging_mixin.py:115} INFO - [2023-06-22 12:20:34,260] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-06-22T11:20:34.260731+00:00, run_after=2023-06-22T15:20:34.260731+00:00
+[2023-06-22 12:20:34,272] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.052 seconds
+[2023-06-22 12:21:13,850] {processor.py:153} INFO - Started process (PID=59619) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-06-22 12:21:13,852] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-06-22 12:21:13,855] {logging_mixin.py:115} INFO - [2023-06-22 12:21:13,854] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-06-22 12:21:13,864] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-06-22 12:21:13,881] {logging_mixin.py:115} INFO - [2023-06-22 12:21:13,881] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:21:13,900] {logging_mixin.py:115} INFO - [2023-06-22 12:21:13,900] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-06-22T11:21:13.900566+00:00, run_after=2023-06-22T15:21:13.900566+00:00
+[2023-06-22 12:21:13,920] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.073 seconds

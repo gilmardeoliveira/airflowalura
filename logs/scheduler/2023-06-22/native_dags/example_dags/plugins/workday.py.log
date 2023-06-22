@@ -1098,3 +1098,13 @@
 [2023-06-22 12:19:56,061] {logging_mixin.py:115} INFO - [2023-06-22 12:19:56,061] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
 [2023-06-22 12:19:56,062] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
 [2023-06-22 12:19:56,076] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.020 seconds
+[2023-06-22 12:20:30,412] {processor.py:153} INFO - Started process (PID=59232) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2023-06-22 12:20:30,413] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-06-22 12:20:30,413] {logging_mixin.py:115} INFO - [2023-06-22 12:20:30,413] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2023-06-22 12:20:30,415] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2023-06-22 12:20:30,424] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.015 seconds
+[2023-06-22 12:21:04,655] {processor.py:153} INFO - Started process (PID=59482) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2023-06-22 12:21:04,657] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-06-22 12:21:04,658] {logging_mixin.py:115} INFO - [2023-06-22 12:21:04,658] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2023-06-22 12:21:04,661] {processor.py:653} WARNING - No viable dags retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2023-06-22 12:21:04,675] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.026 seconds

@@ -1538,3 +1538,17 @@
 [2023-06-22 12:19:57,598] {logging_mixin.py:115} INFO - [2023-06-22 12:19:57,598] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-06-22 12:19:57,632] {logging_mixin.py:115} INFO - [2023-06-22 12:19:57,632] {dag.py:2927} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2023-06-22T00:00:00+00:00, run_after=2023-06-23T00:00:00+00:00
 [2023-06-22 12:19:57,648] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.086 seconds
+[2023-06-22 12:20:36,485] {processor.py:153} INFO - Started process (PID=59282) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2023-06-22 12:20:36,486] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2023-06-22 12:20:36,486] {logging_mixin.py:115} INFO - [2023-06-22 12:20:36,486] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2023-06-22 12:20:36,496] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2023-06-22 12:20:36,514] {logging_mixin.py:115} INFO - [2023-06-22 12:20:36,513] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:20:36,534] {logging_mixin.py:115} INFO - [2023-06-22 12:20:36,533] {dag.py:2927} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2023-06-22T00:00:00+00:00, run_after=2023-06-23T00:00:00+00:00
+[2023-06-22 12:20:36,548] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.066 seconds
+[2023-06-22 12:21:10,552] {processor.py:153} INFO - Started process (PID=59526) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2023-06-22 12:21:10,553] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2023-06-22 12:21:10,553] {logging_mixin.py:115} INFO - [2023-06-22 12:21:10,553] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2023-06-22 12:21:10,561] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_datetime_operator_2']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2023-06-22 12:21:10,574] {logging_mixin.py:115} INFO - [2023-06-22 12:21:10,574] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:21:10,592] {logging_mixin.py:115} INFO - [2023-06-22 12:21:10,592] {dag.py:2927} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2023-06-22T00:00:00+00:00, run_after=2023-06-23T00:00:00+00:00
+[2023-06-22 12:21:10,606] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.057 seconds

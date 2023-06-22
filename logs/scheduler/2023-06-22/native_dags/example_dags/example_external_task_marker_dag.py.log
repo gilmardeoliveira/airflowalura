@@ -1686,3 +1686,19 @@
 [2023-06-22 12:20:03,888] {logging_mixin.py:115} INFO - [2023-06-22 12:20:03,888] {dag.py:2927} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
 [2023-06-22 12:20:03,888] {logging_mixin.py:115} INFO - [2023-06-22 12:20:03,888] {dag.py:2927} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
 [2023-06-22 12:20:03,901] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.068 seconds
+[2023-06-22 12:20:42,052] {processor.py:153} INFO - Started process (PID=59313) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2023-06-22 12:20:42,053] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2023-06-22 12:20:42,053] {logging_mixin.py:115} INFO - [2023-06-22 12:20:42,053] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2023-06-22 12:20:42,057] {processor.py:651} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2023-06-22 12:20:42,085] {logging_mixin.py:115} INFO - [2023-06-22 12:20:42,085] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-06-22 12:20:42,103] {logging_mixin.py:115} INFO - [2023-06-22 12:20:42,102] {dag.py:2927} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2023-06-22 12:20:42,103] {logging_mixin.py:115} INFO - [2023-06-22 12:20:42,103] {dag.py:2927} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2023-06-22 12:20:42,119] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.069 seconds
+[2023-06-22 12:21:20,729] {processor.py:153} INFO - Started process (PID=59680) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2023-06-22 12:21:20,729] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2023-06-22 12:21:20,730] {logging_mixin.py:115} INFO - [2023-06-22 12:21:20,730] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2023-06-22 12:21:20,734] {processor.py:651} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2023-06-22 12:21:20,753] {logging_mixin.py:115} INFO - [2023-06-22 12:21:20,753] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-06-22 12:21:20,766] {logging_mixin.py:115} INFO - [2023-06-22 12:21:20,766] {dag.py:2927} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2023-06-22 12:21:20,766] {logging_mixin.py:115} INFO - [2023-06-22 12:21:20,766] {dag.py:2927} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2023-06-22 12:21:20,775] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.049 seconds

@@ -1489,3 +1489,17 @@
 [2023-06-22 12:19:43,687] {logging_mixin.py:115} INFO - [2023-06-22 12:19:43,686] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-06-22 12:19:43,701] {logging_mixin.py:115} INFO - [2023-06-22 12:19:43,701] {dag.py:2927} INFO - Setting next_dagrun for example_nested_branch_dag to 2023-06-21T00:00:00+00:00, run_after=2023-06-22T00:00:00+00:00
 [2023-06-22 12:19:43,715] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.060 seconds
+[2023-06-22 12:20:24,095] {processor.py:153} INFO - Started process (PID=59194) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-06-22 12:20:24,097] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2023-06-22 12:20:24,098] {logging_mixin.py:115} INFO - [2023-06-22 12:20:24,098] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-06-22 12:20:24,106] {processor.py:651} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-06-22 12:20:24,120] {logging_mixin.py:115} INFO - [2023-06-22 12:20:24,120] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:20:24,134] {logging_mixin.py:115} INFO - [2023-06-22 12:20:24,134] {dag.py:2927} INFO - Setting next_dagrun for example_nested_branch_dag to 2023-06-21T00:00:00+00:00, run_after=2023-06-22T00:00:00+00:00
+[2023-06-22 12:20:24,145] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.052 seconds
+[2023-06-22 12:21:05,781] {processor.py:153} INFO - Started process (PID=59489) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-06-22 12:21:05,782] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2023-06-22 12:21:05,783] {logging_mixin.py:115} INFO - [2023-06-22 12:21:05,783] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-06-22 12:21:05,797] {processor.py:651} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-06-22 12:21:05,813] {logging_mixin.py:115} INFO - [2023-06-22 12:21:05,813] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:21:05,833] {logging_mixin.py:115} INFO - [2023-06-22 12:21:05,832] {dag.py:2927} INFO - Setting next_dagrun for example_nested_branch_dag to 2023-06-21T00:00:00+00:00, run_after=2023-06-22T00:00:00+00:00
+[2023-06-22 12:21:05,844] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.066 seconds
