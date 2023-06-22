@@ -1734,3 +1734,11 @@
 [2023-06-22 12:22:02,066] {logging_mixin.py:115} INFO - [2023-06-22 12:22:02,065] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-06-22 12:22:02,086] {logging_mixin.py:115} INFO - [2023-06-22 12:22:02,086] {dag.py:2927} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
 [2023-06-22 12:22:02,099] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.078 seconds
+[2023-06-22 12:22:44,210] {processor.py:153} INFO - Started process (PID=60593) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-06-22 12:22:44,213] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-06-22 12:22:44,213] {logging_mixin.py:115} INFO - [2023-06-22 12:22:44,213] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-06-22 12:22:44,231] {logging_mixin.py:115} INFO - [2023-06-22 12:22:44,231] {example_python_operator.py:68} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2023-06-22 12:22:44,231] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-06-22 12:22:44,245] {logging_mixin.py:115} INFO - [2023-06-22 12:22:44,244] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:22:44,259] {logging_mixin.py:115} INFO - [2023-06-22 12:22:44,259] {dag.py:2927} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-06-22 12:22:44,272] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.064 seconds

@@ -1503,3 +1503,10 @@
 [2023-06-22 12:21:46,634] {logging_mixin.py:115} INFO - [2023-06-22 12:21:46,634] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-06-22 12:21:46,649] {logging_mixin.py:115} INFO - [2023-06-22 12:21:46,649] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-06-21T15:21:46.648882+00:00, run_after=2023-06-22T15:21:46.648882+00:00
 [2023-06-22 12:21:46,659] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.054 seconds
+[2023-06-22 12:22:27,145] {processor.py:153} INFO - Started process (PID=60403) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-06-22 12:22:27,147] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-06-22 12:22:27,148] {logging_mixin.py:115} INFO - [2023-06-22 12:22:27,147] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-06-22 12:22:27,158] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-06-22 12:22:27,179] {logging_mixin.py:115} INFO - [2023-06-22 12:22:27,179] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:22:27,195] {logging_mixin.py:115} INFO - [2023-06-22 12:22:27,195] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-06-21T15:22:27.195204+00:00, run_after=2023-06-22T15:22:27.195204+00:00
+[2023-06-22 12:22:27,207] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.066 seconds
