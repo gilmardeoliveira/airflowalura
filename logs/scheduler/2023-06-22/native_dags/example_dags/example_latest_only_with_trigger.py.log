@@ -1482,3 +1482,10 @@
 [2023-06-22 12:23:00,824] {logging_mixin.py:115} INFO - [2023-06-22 12:23:00,824] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-06-22 12:23:00,839] {logging_mixin.py:115} INFO - [2023-06-22 12:23:00,838] {dag.py:2927} INFO - Setting next_dagrun for latest_only_with_trigger to 2023-06-22T11:23:00.838582+00:00, run_after=2023-06-22T15:23:00.838582+00:00
 [2023-06-22 12:23:00,848] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.050 seconds
+[2023-06-22 12:23:38,976] {processor.py:153} INFO - Started process (PID=61549) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-06-22 12:23:38,976] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2023-06-22 12:23:38,977] {logging_mixin.py:115} INFO - [2023-06-22 12:23:38,977] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-06-22 12:23:38,982] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only_with_trigger']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-06-22 12:23:38,996] {logging_mixin.py:115} INFO - [2023-06-22 12:23:38,996] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:23:39,011] {logging_mixin.py:115} INFO - [2023-06-22 12:23:39,011] {dag.py:2927} INFO - Setting next_dagrun for latest_only_with_trigger to 2023-06-22T11:23:39.011392+00:00, run_after=2023-06-22T15:23:39.011392+00:00
+[2023-06-22 12:23:39,025] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.052 seconds

@@ -1517,3 +1517,10 @@
 [2023-06-22 12:23:10,324] {logging_mixin.py:115} INFO - [2023-06-22 12:23:10,324] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-06-22 12:23:10,338] {logging_mixin.py:115} INFO - [2023-06-22 12:23:10,338] {dag.py:2927} INFO - Setting next_dagrun for example_branch_labels to 2023-06-21T00:00:00+00:00, run_after=2023-06-22T00:00:00+00:00
 [2023-06-22 12:23:10,347] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py took 0.045 seconds
+[2023-06-22 12:23:44,119] {processor.py:153} INFO - Started process (PID=61605) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-06-22 12:23:44,120] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-06-22 12:23:44,121] {logging_mixin.py:115} INFO - [2023-06-22 12:23:44,121] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-06-22 12:23:44,125] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-06-22 12:23:44,141] {logging_mixin.py:115} INFO - [2023-06-22 12:23:44,141] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:23:44,158] {logging_mixin.py:115} INFO - [2023-06-22 12:23:44,158] {dag.py:2927} INFO - Setting next_dagrun for example_branch_labels to 2023-06-21T00:00:00+00:00, run_after=2023-06-22T00:00:00+00:00
+[2023-06-22 12:23:44,171] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py took 0.056 seconds

@@ -1482,3 +1482,10 @@
 [2023-06-22 12:22:50,816] {logging_mixin.py:115} INFO - [2023-06-22 12:22:50,816] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-06-22 12:22:50,839] {logging_mixin.py:115} INFO - [2023-06-22 12:22:50,839] {dag.py:2927} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-06-22T00:00:00+00:00, run_after=2023-06-23T00:00:00+00:00
 [2023-06-22 12:22:50,856] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.070 seconds
+[2023-06-22 12:23:28,702] {processor.py:153} INFO - Started process (PID=61432) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-06-22 12:23:28,703] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-06-22 12:23:28,704] {logging_mixin.py:115} INFO - [2023-06-22 12:23:28,703] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-06-22 12:23:28,710] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-06-22 12:23:28,724] {logging_mixin.py:115} INFO - [2023-06-22 12:23:28,724] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:23:28,738] {logging_mixin.py:115} INFO - [2023-06-22 12:23:28,737] {dag.py:2927} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-06-22T00:00:00+00:00, run_after=2023-06-23T00:00:00+00:00
+[2023-06-22 12:23:28,747] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.048 seconds

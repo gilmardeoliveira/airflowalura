@@ -1461,3 +1461,10 @@
 [2023-06-22 12:23:01,797] {logging_mixin.py:115} INFO - [2023-06-22 12:23:01,797] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-06-22 12:23:01,814] {logging_mixin.py:115} INFO - [2023-06-22 12:23:01,814] {dag.py:2927} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
 [2023-06-22 12:23:01,826] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.073 seconds
+[2023-06-22 12:23:40,105] {processor.py:153} INFO - Started process (PID=61555) to work on /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-06-22 12:23:40,106] {processor.py:641} INFO - Processing file /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2023-06-22 12:23:40,106] {logging_mixin.py:115} INFO - [2023-06-22 12:23:40,106] {dagbag.py:507} INFO - Filling up the DagBag from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-06-22 12:23:40,123] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-06-22 12:23:40,136] {logging_mixin.py:115} INFO - [2023-06-22 12:23:40,136] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-22 12:23:40,148] {logging_mixin.py:115} INFO - [2023-06-22 12:23:40,148] {dag.py:2927} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2023-06-22 12:23:40,157] {processor.py:161} INFO - Processing /home/gilmar/Documentos/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.055 seconds
